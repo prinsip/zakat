@@ -3,101 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- -->
-    <title>AkuntansiZakat: Hitungan Tepat, Berkah Berlipat! | Jasa Akuntansi Zakat Pasar Rebo Jakarta Timur</title>
-    <meta name="description" content="Sistem & Jasa Akuntansi Zakat, Infaq, dan Sadaqah profesional di Pasar Rebo, Jakarta Timur, DKI Jakarta. Pengelolaan transparan, sesuai syariah, amanah, & terintegrasi digital. Hubungi 083180296984.">
-    <meta name="keywords" content="akuntansi zakat, akuntansizakat, kelola infaq sadaqah, akuntansi syariah pasar rebo, jasa pembukuan zakat jakarta timur, software akuntansi masjid dki jakarta, akuntansizakat.web.id">
-    <meta name="author" content="AkuntansiZakat">
-
-    <!-- GEO Tags for Local SEO Google Rank #1 -->
-    <meta name="geo.region" content="ID-JK">
-    <meta name="geo.placename" content="Pasar Rebo, Jakarta Timur, DKI Jakarta">
-    <meta name="geo.position" content="-6.3150;106.8617">
-    <meta name="ICBM" content="-6.3150, 106.8617">
-
-    <!-- Open Graph for Social Media -->
-    <meta property="og:title" content="AkuntansiZakat: Hitungan Tepat, Berkah Berlipat! | Pasar Rebo, Jakarta Timur">
-    <meta property="og:description" content="Sistem pelaporan keuangan Zakat, Infaq, & Sadaqah modern berskala nasional berbasis di Jakarta Timur. Akurat, amanah, & syariah-compliant.">
-    <meta property="og:url" content="https://akuntansizakat.web.id">
+    <title>ZakatMyID - Aplikasi Sistem ZISWAF Terbaik di Jakarta Timur</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="ZakatMyID adalah sistem aplikasi ZISWAF modern berstandar PSAK 109 di Pasar Rebo, Jakarta Timur, DKI Jakarta. Solusi praktis, amanah, & sistematis untuk LAZ Anda.">
+    <meta name="keywords" content="aplikasi zakat, sistem ziswaf, software zakat jakarta, ZakatMyID, psak 109, amil zakat pasar rebo, jakarta timur, dki jakarta, sedekah online, aplikasi wakaf">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://zakat.my.id">
+    
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://placehold.co/1200x630/0b0f19/22d3ee?text=AkuntansiZakat+Pasar+Rebo">
+    <meta property="og:url" content="https://zakat.my.id/">
+    <meta property="og:title" content="ZakatMyID - Sistem Aplikasi ZISWAF Terbaik di Jakarta Timur">
+    <meta property="og:description" content="Transformasi digital lembaga zakat Anda bersama ZakatMyID di Pasar Rebo, Jakarta Timur. Terintegrasi, transparan, dan sesuai PSAK 109.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&w=1200&q=80">
 
-    <!-- Google Fonts & Tailwind & AlpineJS & FontAwesome -->
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://zakat.my.id/">
+    <meta property="twitter:title" content="ZakatMyID - Aplikasi ZISWAF Pasar Rebo Jakarta Timur">
+    <meta property="twitter:description" content="Aplikasi ZISWAF andalan LAZ Indonesia di Pasar Rebo, Jakarta Timur. Praktis, transparan, dan sesuai standar syariah PSAK 109.">
+
+    <!-- Tailwind CSS & FontAwesome -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Orbitron:wght@500;700;900&display=swap" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <!-- Tailwind Config for Neon Theme Colors -->
+    <!-- Custom Tailwind Configuration -->
     <script>
         tailwind.config = {
             theme: {
                 extend: {
                     fontFamily: {
-                        sans: ['Inter', 'sans-serif'],
-                        orbitron: ['Orbitron', 'sans-serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
                     },
                     colors: {
-                        cyber: {
-                            dark: '#070b14',
-                            card: '#0d1527',
-                            neonCyan: '#00f0ff',
-                            neonPink: '#ff007f',
-                            neonGreen: '#39ff14',
-                            neonYellow: '#fffb00',
-                            slateGray: '#1e293b'
+                        emerald: {
+                            50: '#ecfdf5',
+                            100: '#d1fae5',
+                            500: '#10b981',
+                            600: '#059669',
+                            700: '#047857',
+                            800: '#065f46',
+                            900: '#064e3b',
+                        },
+                        mint: {
+                            100: '#e6f4f1',
+                            200: '#cbe9e3',
+                            500: '#14b8a6',
                         }
-                    },
-                    boxShadow: {
-                        'neon-cyan': '0 0 15px rgba(0, 240, 255, 0.4)',
-                        'neon-pink': '0 0 15px rgba(255, 0, 127, 0.4)',
-                        'neon-green': '0 0 15px rgba(57, 255, 20, 0.4)',
                     }
                 }
             }
         }
     </script>
 
-    <!-- Custom CSS for Cyber Cityscape Grid Backgrounds & Glows -->
-    <style>
-        .neon-glow-text-cyan {
-            text-shadow: 0 0 10px rgba(0, 240, 255, 0.8), 0 0 20px rgba(0, 240, 255, 0.4);
-        }
-        .neon-glow-text-pink {
-            text-shadow: 0 0 10px rgba(255, 0, 127, 0.8), 0 0 20px rgba(255, 0, 127, 0.4);
-        }
-        .neon-glow-text-green {
-            text-shadow: 0 0 10px rgba(57, 255, 20, 0.8), 0 0 20px rgba(57, 255, 20, 0.4);
-        }
-        /* Cityscape Grid Overlay Pattern */
-        .city-grid {
-            background-size: 40px 40px;
-            background-image:
-                linear-gradient(to right, rgba(0, 240, 255, 0.05) 1px, transparent 1px),
-                linear-gradient(to bottom, rgba(0, 240, 255, 0.05) 1px, transparent 1px);
-        }
-        .cyber-gradient {
-            background: linear-gradient(135deg, #070b14 0%, #0d1527 50%, #150921 100%);
-        }
-    </style>
-
-    <!-- -->
+    <!-- Schema.org JSON-LD structured data for SEO & AEO -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "name": "AkuntansiZakat",
-      "image": "https://placehold.co/800x600/0b0f19/22d3ee?text=AkuntansiZakat+Logo",
-      "@id": "https://akuntansizakat.web.id/#local-business",
-      "url": "https://akuntansizakat.web.id",
+      "name": "ZakatMyID",
+      "image": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&w=800&q=80",
+      "@id": "https://zakat.my.id",
+      "url": "https://zakat.my.id",
       "telephone": "+6283180296984",
-      "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Jl. Raya Bogor, Kelurahan Pekayon, Kecamatan Pasar Rebo",
+        "streetAddress": "Jl. Raya Bogor No. 24, Pasar Rebo",
         "addressLocality": "Jakarta Timur",
         "addressRegion": "DKI Jakarta",
         "postalCode": "13710",
@@ -105,8 +82,8 @@
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": -6.3150,
-        "longitude": 106.8617
+        "latitude": "-6.3235",
+        "longitude": "106.8681"
       },
       "openingHoursSpecification": {
         "@type": "OpeningHoursSpecification",
@@ -132,320 +109,451 @@
     }
     </script>
 </head>
-<body class="cyber-gradient text-slate-200 font-sans min-h-screen relative overflow-x-hidden selection:bg-cyber-neonPink selection:text-white" x-data="{ mobileMenuOpen: false }">
+<body class="bg-slate-50 text-slate-800 antialiased font-sans">
 
     <!-- -->
-    <header class="sticky top-0 z-50 bg-cyber-dark/80 backdrop-blur-lg border-b border-cyber-neonCyan/30 transition-all duration-300">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex items-center justify-between h-20">
-                <!-- Logo -->
-                <div class="flex-shrink-0 flex items-center gap-2">
-                    <a href="https://szakat.id"><span class="text-2xl font-black font-orbitron tracking-wider text-cyber-neonCyan neon-glow-text-cyan">
-                        AKUNTANSI<span class="text-cyber-neonPink neon-glow-text-pink">ZAKAT</span>
-                    </span></a>
+    <!-- Sticky Header -->
+    <header class="sticky top-0 z-50 backdrop-blur-md bg-white/80 border-b border-emerald-100/50 transition-all duration-300">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <!-- Brand Logo -->
+            <a href="https://szakat.id" class="flex items-center gap-2 group">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-emerald-600 to-mint-500 flex items-center justify-center text-white shadow-md shadow-emerald-200">
+                    <i class="fa-solid fa-mosque text-lg"></i>
                 </div>
-
-                <!-- Desktop Nav Links -->
-                <nav class="hidden md:flex space-x-8 text-sm font-semibold tracking-wider font-orbitron">
-                    <a href="#about" class="text-slate-300 hover:text-cyber-neonCyan transition-all duration-300 relative py-2 group">
-                        Tentang Kami
-                        <span class="absolute bottom-0 left-0 w-0 h-[2px] bg-cyber-neonCyan transition-all duration-300 group-hover:w-full shadow-neon-cyan"></span>
-                    </a>
-                    <a href="#services" class="text-slate-300 hover:text-cyber-neonCyan transition-all duration-300 relative py-2 group">
-                        Layanan
-                        <span class="absolute bottom-0 left-0 w-0 h-[2px] bg-cyber-neonCyan transition-all duration-300 group-hover:w-full shadow-neon-cyan"></span>
-                    </a>
-                    <a href="#clients" class="text-slate-300 hover:text-cyber-neonCyan transition-all duration-300 relative py-2 group">
-                        Klien
-                        <span class="absolute bottom-0 left-0 w-0 h-[2px] bg-cyber-neonCyan transition-all duration-300 group-hover:w-full shadow-neon-cyan"></span>
-                    </a>
-                    <a href="#testimonials" class="text-slate-300 hover:text-cyber-neonCyan transition-all duration-300 relative py-2 group">
-                        Testimoni
-                        <span class="absolute bottom-0 left-0 w-0 h-[2px] bg-cyber-neonCyan transition-all duration-300 group-hover:w-full shadow-neon-cyan"></span>
-                    </a>
-                    <a href="#team" class="text-slate-300 hover:text-cyber-neonCyan transition-all duration-300 relative py-2 group">
-                        Tim
-                        <span class="absolute bottom-0 left-0 w-0 h-[2px] bg-cyber-neonCyan transition-all duration-300 group-hover:w-full shadow-neon-cyan"></span>
-                    </a>
-                    <a href="#faq" class="text-slate-300 hover:text-cyber-neonCyan transition-all duration-300 relative py-2 group">
-                        FAQ
-                        <span class="absolute bottom-0 left-0 w-0 h-[2px] bg-cyber-neonCyan transition-all duration-300 group-hover:w-full shadow-neon-cyan"></span>
-                    </a>
-                    <a href="#contact" class="text-slate-300 hover:text-cyber-neonCyan transition-all duration-300 relative py-2 group">
-                        Hubungi
-                        <span class="absolute bottom-0 left-0 w-0 h-[2px] bg-cyber-neonCyan transition-all duration-300 group-hover:w-full shadow-neon-cyan"></span>
-                    </a>
-                </nav>
-
-                <!-- CTA Button -->
-                <div class="hidden md:flex items-center">
-                    <a href="https://wa.me/6283180296984?text=Halo%20AkuntansiZakat,%20saya%20ingin%20konsultasi%20mengenai%20sistem%20keuangan%20syariah." target="_blank" class="px-6 py-2.5 rounded-full font-bold text-sm tracking-wide bg-gradient-to-r from-cyber-neonCyan to-cyber-neonPink text-cyber-dark hover:scale-105 active:scale-95 transition-all duration-300 shadow-neon-cyan">
-                        Konsultasi Gratis <i class="fab fa-whatsapp ml-1"></i>
-                    </a>
+                <div>
+                    <span class="text-xl font-extrabold tracking-tight text-emerald-900 group-hover:text-emerald-700 transition-colors">Zakat<span class="text-emerald-500">MyID</span></span>
+                    <span class="block text-[9px] text-slate-500 uppercase tracking-widest -mt-1 font-bold">Indonesia</span>
                 </div>
+            </a>
 
-                <!-- Mobile menu button -->
-                <div class="md:hidden">
-                    <button @click="mobileMenuOpen = !mobileMenuOpen" class="text-slate-300 hover:text-cyber-neonCyan focus:outline-none p-2">
-                        <i class="fa-solid" :class="mobileMenuOpen ? 'fa-xmark text-2xl' : 'fa-bars text-2xl'"></i>
-                    </button>
-                </div>
+            <!-- Desktop Menu -->
+            <div class="hidden lg:flex items-center gap-8">
+                <a href="#tentang" class="text-sm font-semibold text-slate-600 hover:text-emerald-600 transition-colors">Tentang Kami</a>
+                <a href="#fitur" class="text-sm font-semibold text-slate-600 hover:text-emerald-600 transition-colors">Fitur Aplikasi</a>
+                <a href="#kalkulator" class="text-sm font-semibold text-slate-600 hover:text-emerald-600 transition-colors">Kalkulator</a>
+                <a href="#klien" class="text-sm font-semibold text-slate-600 hover:text-emerald-600 transition-colors">Klien Kami</a>
+                <a href="#testimoni" class="text-sm font-semibold text-slate-600 hover:text-emerald-600 transition-colors">Testimoni</a>
+                <a href="#faq" class="text-sm font-semibold text-slate-600 hover:text-emerald-600 transition-colors">FAQ</a>
+                <a href="#kontak" class="text-sm font-semibold text-slate-600 hover:text-emerald-600 transition-colors">Kontak</a>
             </div>
-        </div>
 
-        <!-- Mobile Menu (AlpineJS toggled) -->
-        <div x-show="mobileMenuOpen" x-transition class="md:hidden bg-cyber-dark border-b border-cyber-neonCyan/30 px-4 pt-2 pb-6 space-y-4">
-            <a @click="mobileMenuOpen = false" href="#about" class="block text-lg text-slate-300 hover:text-cyber-neonCyan py-1">Tentang Kami</a>
-            <a @click="mobileMenuOpen = false" href="#services" class="block text-lg text-slate-300 hover:text-cyber-neonCyan py-1">Layanan</a>
-            <a @click="mobileMenuOpen = false" href="#clients" class="block text-lg text-slate-300 hover:text-cyber-neonCyan py-1">Klien</a>
-            <a @click="mobileMenuOpen = false" href="#testimonials" class="block text-lg text-slate-300 hover:text-cyber-neonCyan py-1">Testimoni</a>
-            <a @click="mobileMenuOpen = false" href="#team" class="block text-lg text-slate-300 hover:text-cyber-neonCyan py-1">Tim</a>
-            <a @click="mobileMenuOpen = false" href="#faq" class="block text-lg text-slate-300 hover:text-cyber-neonCyan py-1">FAQ</a>
-            <a @click="mobileMenuOpen = false" href="#contact" class="block text-lg text-slate-300 hover:text-cyber-neonCyan py-1">Hubungi</a>
-            <a href="https://wa.me/6283180296984?text=Halo%20AkuntansiZakat,%20saya%20ingin%20konsultasi%20mengenai%20sistem%20keuangan%20syariah." target="_blank" class="block text-center w-full py-3 rounded-xl font-bold bg-gradient-to-r from-cyber-neonCyan to-cyber-neonPink text-cyber-dark shadow-neon-pink">
-                WhatsApp Kami <i class="fab fa-whatsapp ml-1"></i>
+            <!-- CTA Buttons -->
+            <div class="hidden sm:flex items-center gap-4">
+                <a href="https://wa.me/6283180296984?text=Halo%20ZakatMyID,%20saya%20ingin%20konsultasi%20mengenai%20Sistem%20Aplikasi%20ZISWAF" target="_blank" class="px-5 py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold rounded-xl text-sm shadow-lg shadow-emerald-200/50 transition-all hover:scale-105 duration-200 flex items-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-lg"></i> Konsultasi Gratis
+                </a>
+            </div>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button id="mobileMenuBtn" class="lg:hidden p-2 text-slate-600 hover:text-emerald-600 focus:outline-none">
+                <i class="fa-solid fa-bars text-2xl"></i>
+            </button>
+        </nav>
+
+        <!-- Mobile Drawer Menu -->
+        <div id="mobileMenu" class="hidden lg:hidden bg-white border-b border-emerald-100 px-4 py-6 space-y-3 shadow-inner">
+            <a href="#tentang" class="block py-2 text-base font-semibold text-slate-700 hover:text-emerald-600 transition-colors">Tentang Kami</a>
+            <a href="#fitur" class="block py-2 text-base font-semibold text-slate-700 hover:text-emerald-600 transition-colors">Fitur Aplikasi</a>
+            <a href="#kalkulator" class="block py-2 text-base font-semibold text-slate-700 hover:text-emerald-600 transition-colors">Kalkulator</a>
+            <a href="#klien" class="block py-2 text-base font-semibold text-slate-700 hover:text-emerald-600 transition-colors">Klien Kami</a>
+            <a href="#testimoni" class="block py-2 text-base font-semibold text-slate-700 hover:text-emerald-600 transition-colors">Testimoni</a>
+            <a href="#faq" class="block py-2 text-base font-semibold text-slate-700 hover:text-emerald-600 transition-colors">FAQ</a>
+            <a href="#kontak" class="block py-2 text-base font-semibold text-slate-700 hover:text-emerald-600 transition-colors">Kontak</a>
+            <a href="https://wa.me/6283180296984?text=Halo%20ZakatMyID" target="_blank" class="w-full mt-4 py-3 bg-emerald-600 hover:bg-emerald-700 text-white text-center font-bold rounded-xl text-sm shadow-md transition-all block">
+                <i class="fa-brands fa-whatsapp text-lg mr-2"></i> WhatsApp Sekarang
             </a>
         </div>
     </header>
 
     <!-- -->
-    <section class="relative min-h-[90vh] flex items-center justify-center py-20 overflow-hidden city-grid">
-        <!-- Floating Abstract City Glowing Shapes -->
-        <div class="absolute top-1/4 left-10 w-72 h-72 bg-cyber-neonCyan/10 rounded-full blur-3xl animate-pulse"></div>
-        <div class="absolute bottom-10 right-10 w-96 h-96 bg-cyber-neonPink/10 rounded-full blur-3xl"></div>
+    <!-- Hero Section -->
+    <section class="relative pt-10 pb-20 md:py-28 overflow-hidden bg-gradient-to-b from-emerald-50 via-white to-slate-50">
+        <!-- Floating Eco Elements (SVGs for decorative background) -->
+        <div class="absolute inset-0 opacity-40 pointer-events-none select-none">
+            <div class="absolute top-10 left-10 w-72 h-72 bg-emerald-300 rounded-full blur-3xl opacity-20"></div>
+            <div class="absolute bottom-10 right-10 w-96 h-96 bg-mint-200 rounded-full blur-3xl opacity-30"></div>
+        </div>
 
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-            <!-- Left: Hero Text Core Content -->
-            <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
-                <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-900/90 border border-cyber-neonCyan/50 shadow-neon-cyan">
-                    <span class="w-2.5 h-2.5 rounded-full bg-cyber-neonGreen animate-ping"></span>
-                    <span class="text-xs font-semibold tracking-widest uppercase text-cyber-neonCyan font-orbitron">
-                        Pusat Sistem Akuntansi Zakat Infaq & Sadaqah
-                    </span>
-                </div>
-
-                <!-- Main Header with GEO Focus and High-Impact Rhyming Tagline -->
-                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black font-orbitron tracking-tight leading-none text-white">
-                    AkuntansiZakat: <br>
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyber-neonCyan via-cyber-neonGreen to-cyber-neonPink">
-                        Hitungan Tepat, Berkah Berlipat!
-                    </span>
-                </h1>
-
-                <p class="text-base sm:text-lg text-slate-400 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-                    Sistem pelaporan keuangan syariah terpercaya untuk pengelolaan Zakat, Infaq, dan Sadaqah. Solusi digital masa kini untuk UPZ, LAZIS, Yayasan, & Masjid di <span class="text-cyber-neonCyan font-semibold">Indonesia</span>.
-                </p>
-
-                <!-- GEO/SEO Rich Indicators -->
-                <div class="flex flex-wrap justify-center lg:justify-start gap-6 text-xs text-slate-400 border-t border-slate-800 pt-6">
-                    <div>
-                        <i class="fa-solid fa-map-location-dot text-cyber-neonPink mr-2 text-sm"></i>
-                        <span>Pasar Rebo, Jakarta Timur</span>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Hero Left Content -->
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 px-4 py-2 bg-emerald-100/60 text-emerald-800 rounded-full text-xs sm:text-sm font-semibold border border-emerald-200">
+                        <i class="fa-solid fa-location-dot"></i> Pasar Rebo, Jakarta Timur, DKI Jakarta
                     </div>
-                    <div>
-                        <i class="fa-solid fa-square-phone text-cyber-neonCyan mr-2 text-sm"></i>
-                        <span>083180296984</span>
-                    </div>
-                    <div>
-                        <i class="fa-solid fa-globe text-cyber-neonGreen mr-2 text-sm"></i>
-                        <span>szakat.id</span>
-                    </div>
-                </div>
-
-                <!-- Call to Action Buttons -->
-                <div class="flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
-                    <a href="https://wa.me/6283180296984?text=Assalamualaikum%20AkuntansiZakat%20saya%20ingin%20tanya%20sistem%20akuntansi%20zakat%20modern" target="_blank" class="px-8 py-4 rounded-xl font-bold font-orbitron tracking-wider text-cyber-dark bg-cyber-neonGreen hover:bg-emerald-400 hover:shadow-neon-green transition-all duration-300 flex items-center justify-center gap-2">
-                        Hubungi WhatsApp <i class="fab fa-whatsapp text-lg"></i>
-                    </a>
-                    <a href="#services" class="px-8 py-4 rounded-xl font-bold font-orbitron tracking-wider text-slate-300 border border-slate-700 hover:border-cyber-neonCyan hover:text-cyber-neonCyan transition-all duration-300 flex items-center justify-center">
-                        Lihat Layanan Kami <i class="fa-solid fa-arrow-down ml-2"></i>
-                    </a>
-                </div>
-            </div>
-
-            <!-- -->
-            <!-- Right: Interactive Cyber Neon Zakat Calculator Widget -->
-            <div class="lg:col-span-5 w-full max-w-md mx-auto" x-data="{ penghasilan: 10000000, hitungZakat() { return Math.max(0, this.penghasilan * 0.025); } }">
-                <div class="bg-cyber-card/90 border-2 border-cyber-neonCyan rounded-3xl p-6 sm:p-8 shadow-neon-cyan backdrop-blur-xl relative">
-                    <div class="absolute -top-4 -right-4 bg-cyber-neonPink text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest font-orbitron shadow-neon-pink">
-                        LIVE WIDGET
-                    </div>
-                    <h3 class="text-xl font-black font-orbitron tracking-wider mb-2 text-cyber-neonCyan text-center">
-                        KALKULATOR ZAKAT NEON
-                    </h3>
-                    <p class="text-xs text-slate-400 text-center mb-6">
-                        Simulasi perhitungan Zakat Penghasilan (2.5%) secara Instan
+                    
+                    <!-- Tagline berima dengan nama brand -->
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-950 leading-tight">
+                        ZakatMyID: <br>
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-mint-500">Kelola ZISWAF Praktis, Amanah & Sistematis!</span>
+                    </h1>
+                    
+                    <p class="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                        Satu-satunya sistem manajemen LAZ (Lembaga Amil Zakat) terlengkap di Indonesia yang mengintegrasikan pencatatan muzaki, program penyaluran, hingga pelaporan otomatis berbasis PSAK 109. 
                     </p>
 
-                    <!-- Input Range -->
-                    <div class="space-y-4">
-                        <div>
-                            <label class="block text-sm font-semibold tracking-wider text-slate-300 mb-2">
-                                Total Penghasilan Per Bulan:
-                            </label>
-                            <input type="range" min="1000000" max="100000000" step="500000" x-model="penghasilan" class="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-cyber-neonCyan">
-                            <div class="flex justify-between text-xs text-slate-500 mt-1">
-                                <span>Rp 1 Juta</span>
-                                <span>Rp 100 Juta</span>
-                            </div>
+                    <!-- Trust Points / AEO Trigger List -->
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 pt-4 max-w-lg mx-auto lg:mx-0 text-left">
+                        <div class="flex items-center gap-2">
+                            <span class="w-6 h-6 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-600 text-xs"><i class="fa-solid fa-check"></i></span>
+                            <span class="text-xs sm:text-sm font-medium text-slate-700">Audit-Ready (PSAK 109)</span>
                         </div>
-
-                        <!-- Display Selected Value -->
-                        <div class="bg-slate-950/80 rounded-xl p-3 border border-slate-800 text-center">
-                            <span class="text-xs text-slate-400 block mb-1">Penghasilan Anda</span>
-                            <span class="text-lg font-bold text-white font-orbitron" x-text="'Rp ' + Number(penghasilan).toLocaleString('id-ID')"></span>
+                        <div class="flex items-center gap-2">
+                            <span class="w-6 h-6 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-600 text-xs"><i class="fa-solid fa-check"></i></span>
+                            <span class="text-xs sm:text-sm font-medium text-slate-700">Integrasi WhatsApp WA</span>
                         </div>
-
-                        <!-- Result Display -->
-                        <div class="bg-gradient-to-br from-cyber-neonCyan/20 to-cyber-neonPink/20 rounded-2xl p-5 border border-cyber-neonCyan/30 text-center relative overflow-hidden">
-                            <span class="text-xs text-cyber-neonCyan font-bold uppercase tracking-widest block mb-1">
-                                Wajib Zakat Anda (2.5%)
-                            </span>
-                            <span class="text-3xl font-black text-cyber-neonGreen font-orbitron tracking-wider" x-text="'Rp ' + Number(hitungZakat()).toLocaleString('id-ID')"></span>
-                            <span class="block text-[10px] text-slate-400 mt-2">
-                                * Berdasarkan nisab perak/emas yang berlaku
-                            </span>
+                        <div class="flex items-center gap-2">
+                            <span class="w-6 h-6 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-600 text-xs"><i class="fa-solid fa-check"></i></span>
+                            <span class="text-xs sm:text-sm font-medium text-slate-700">Multi Cabang & Online</span>
                         </div>
+                    </div>
 
-                        <a href="https://wa.me/6283180296984?text=Saya%20sudah%20mencoba%20Kalkulator%20Zakat%20dan%20ingin%20berkonsultasi%20pengelolaan%20zakat%20masjid/yayasan" target="_blank" class="w-full block py-3 text-center rounded-xl font-bold bg-cyber-neonPink text-white hover:bg-pink-600 transition-all duration-300 shadow-neon-pink text-xs uppercase tracking-widest font-orbitron">
-                            Konsultasi Hasil Hitung <i class="fa-solid fa-arrow-right ml-1"></i>
+                    <!-- Call To Actions -->
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-6">
+                        <a href="https://wa.me/6283180296984?text=Halo%20ZakatMyID,%20saya%20tertarik%20untuk%20melihat%20demo%20aplikasi%20ZISWAF" target="_blank" class="px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-2xl shadow-xl shadow-emerald-200 hover:shadow-emerald-300 transition-all hover:-translate-y-0.5 duration-200 flex items-center justify-center gap-2 text-base">
+                            <i class="fa-brands fa-whatsapp text-xl"></i> Mulai Demo Gratis
+                        </a>
+                        <a href="#fitur" class="px-8 py-4 bg-white border-2 border-emerald-100 hover:border-emerald-300 hover:bg-emerald-50 text-emerald-800 font-bold rounded-2xl shadow-sm transition-all hover:-translate-y-0.5 duration-200 flex items-center justify-center gap-2 text-base">
+                            Pelajari Modul <i class="fa-solid fa-arrow-down"></i>
                         </a>
                     </div>
                 </div>
+
+                <!-- Hero Right Content (Premium Mockup Screen Concept) -->
+                <div class="lg:col-span-5 relative mt-8 lg:mt-0">
+                    <div class="relative bg-white rounded-3xl p-6 shadow-2xl border border-slate-100 overflow-hidden group">
+                        <!-- Simulated App Header -->
+                        <div class="flex items-center justify-between border-b border-slate-100 pb-4 mb-4">
+                            <div class="flex items-center gap-2">
+                                <span class="w-3 h-3 rounded-full bg-rose-400"></span>
+                                <span class="w-3 h-3 rounded-full bg-amber-400"></span>
+                                <span class="w-3 h-3 rounded-full bg-emerald-400"></span>
+                            </div>
+                            <span class="text-xs text-slate-400 font-medium">szakat.id</span>
+                        </div>
+
+                        <!-- Simulated Stats Widget -->
+                        <div class="grid grid-cols-2 gap-4 mb-6">
+                            <div class="p-4 bg-emerald-50 rounded-2xl border border-emerald-100">
+                                <span class="block text-xs text-slate-500 mb-1">Total Penghimpunan</span>
+                                <span class="text-lg font-bold text-emerald-800">Rp 1.482.903.000</span>
+                                <span class="block text-[10px] text-emerald-600 font-semibold mt-1"><i class="fa-solid fa-arrow-up"></i> +12% Bulan ini</span>
+                            </div>
+                            <div class="p-4 bg-mint-100/50 rounded-2xl border border-mint-200/50">
+                                <span class="block text-xs text-slate-500 mb-1">Mustahik Terbantu</span>
+                                <span class="text-lg font-bold text-teal-800">12.450 Jiwa</span>
+                                <span class="block text-[10px] text-teal-600 font-semibold mt-1"><i class="fa-solid fa-heart"></i> 8 Golongan Asnaf</span>
+                            </div>
+                        </div>
+
+                        <!-- Simulated Program Allocation Chart Concept -->
+                        <div class="space-y-3">
+                            <span class="text-xs font-bold text-slate-600 uppercase tracking-wider block">Alokasi Penyaluran ZISWAF</span>
+                            <div>
+                                <div class="flex justify-between text-xs font-semibold mb-1">
+                                    <span>Program Pendidikan</span>
+                                    <span>40%</span>
+                                </div>
+                                <div class="w-full bg-slate-100 rounded-full h-2">
+                                    <div class="bg-emerald-500 h-2 rounded-full" style="width: 40%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between text-xs font-semibold mb-1">
+                                    <span>Program Kesehatan</span>
+                                    <span>35%</span>
+                                </div>
+                                <div class="w-full bg-slate-100 rounded-full h-2">
+                                    <div class="bg-mint-500 h-2 rounded-full" style="width: 35%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between text-xs font-semibold mb-1">
+                                    <span>Pemberdayaan Ekonomi</span>
+                                    <span>25%</span>
+                                </div>
+                                <div class="w-full bg-slate-100 rounded-full h-2">
+                                    <div class="bg-amber-500 h-2 rounded-full" style="width: 25%"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Local Overlay Badge for GEO Targeting -->
+                        <div class="absolute -bottom-2 -left-2 bg-gradient-to-r from-emerald-800 to-emerald-900 text-white py-3 px-5 rounded-2xl shadow-lg border border-emerald-700/50 flex items-center gap-3 transform -rotate-1 hover:rotate-0 transition-transform">
+                            <i class="fa-solid fa-map-location-dot text-xl text-emerald-400"></i>
+                            <div>
+                                <p class="text-[10px] uppercase text-emerald-300 font-bold tracking-widest leading-none">Lokasi Kantor Pusat</p>
+                                <p class="text-xs font-bold mt-1">Pasar Rebo, Jakarta Timur</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- -->
+    <!-- Interactive Zakat Calculator (SEO / AEO Engagement Booster) -->
+    <section id="kalkulator" class="py-16 bg-white border-y border-emerald-100">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-emerald-600 font-bold text-sm tracking-widest uppercase">Kalkulator Zakat Digital</span>
+                <h2 class="text-3xl font-extrabold text-slate-900 mt-2">Hitung Kewajiban Zakat Maal Anda Sekarang</h2>
+                <p class="text-slate-600 mt-2">Gunakan alat hitung otomatis kami untuk mengestimasi zakat penghasilan atau harta tabungan secara presisi.</p>
+            </div>
+
+            <div class="bg-emerald-50/70 border border-emerald-100 rounded-3xl p-6 sm:p-10 shadow-inner">
+                <div class="grid md:grid-cols-2 gap-8 items-center">
+                    
+                    <!-- Calculator Inputs -->
+                    <div class="space-y-4">
+                        <div>
+                            <label class="block text-sm font-semibold text-slate-700 mb-2">Pilih Jenis Zakat</label>
+                            <select id="zakatType" class="w-full p-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-emerald-500 font-medium text-slate-800 bg-white" onchange="calculateZakat()">
+                                <option value="penghasilan">Zakat Penghasilan (Bulanan)</option>
+                                <option value="tabungan">Zakat Harta Simpanan / Tabungan (Tahunan)</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-slate-700 mb-2">Nilai Pendapatan / Total Simpanan (Rp)</label>
+                            <input id="zakatAmount" type="number" min="0" value="10000000" class="w-full p-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-emerald-500 font-bold text-slate-800 bg-white" placeholder="Contoh: 10000000" oninput="calculateZakat()">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-slate-700 mb-2">Harga Emas Saat Ini (Rp / Gram)</label>
+                            <input id="goldPrice" type="number" min="0" value="1400000" class="w-full p-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-emerald-500 text-slate-700 bg-white" placeholder="Contoh: 1400000" oninput="calculateZakat()">
+                            <span class="text-xs text-slate-500 mt-1 block">Rata-rata standar nisab = 85 Gram Emas</span>
+                        </div>
+                    </div>
+
+                    <!-- Calculator Results Display -->
+                    <div class="bg-white border border-emerald-100 rounded-2xl p-6 text-center shadow-md">
+                        <span class="text-xs font-bold uppercase text-slate-500 tracking-wider">Estimasi Wajib Zakat</span>
+                        <div class="my-4">
+                            <span id="zakatOutput" class="text-3xl sm:text-4xl font-extrabold text-emerald-600 block">Rp 250.000</span>
+                        </div>
+                        <div class="border-t border-slate-100 pt-4 text-left space-y-2">
+                            <div class="flex justify-between text-xs">
+                                <span class="text-slate-500">Nisab Bulanan:</span>
+                                <span id="nisabOutput" class="font-bold text-slate-700">Rp 9.916.667</span>
+                            </div>
+                            <div class="flex justify-between text-xs">
+                                <span class="text-slate-500">Status Wajib:</span>
+                                <span id="statusOutput" class="font-bold text-emerald-600 bg-emerald-100/50 px-2 py-0.5 rounded-full">WAJIB ZAKAT</span>
+                            </div>
+                        </div>
+                        <a href="https://wa.me/6283180296984?text=Halo%20ZakatMyID,%20saya%20sudah%20hitung%20zakat%20dan%20ingin%20berkonsultasi%20mengenai%20implementasi%20di%20LAZ%20saya." target="_blank" class="w-full mt-6 py-3 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-xl text-sm shadow-md transition-all block">
+                            Salurkan via ZakatMyID Sekarang
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -->
+    <!-- Our Service / Module Section (From prompt's modules) -->
+    <section id="fitur" class="py-20 md:py-28 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-emerald-600 font-bold text-sm tracking-widest uppercase">Modul Sistem</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-950 mt-2">Satu Sistem, Semua yang Lembaga Butuhkan</h2>
+                <div class="w-16 h-1.5 bg-emerald-500 mx-auto mt-4 rounded-full"></div>
+                <p class="text-slate-600 mt-4 text-base sm:text-lg">
+                    Dari pencatatan donasi sampai laporan PSAK 109. ZakatMyID menghilangkan kerumitan operasional LAZ (Lembaga Amil Zakat) Anda secara end-to-end.
+                </p>
+            </div>
+
+            <!-- Modul Grid -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                
+                <!-- Penghimpunan -->
+                <div class="bg-white border border-slate-100 hover:border-emerald-200 rounded-3xl p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
+                    <div class="w-12 h-12 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center mb-5 group-hover:bg-emerald-600 group-hover:text-white transition-colors duration-300">
+                        <i class="fa-solid fa-hand-holding-dollar text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-950 mb-2">Penghimpunan</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Catat donasi zakat, infaq, sedekah, wakaf via channel offline & online dalam satu pencatatan terintegrasi.
+                    </p>
+                </div>
+
+                <!-- Penyaluran -->
+                <div class="bg-white border border-slate-100 hover:border-emerald-200 rounded-3xl p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
+                    <div class="w-12 h-12 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center mb-5 group-hover:bg-emerald-600 group-hover:text-white transition-colors duration-300">
+                        <i class="fa-solid fa-users-gear text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-950 mb-2">Penyaluran</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Workflow approval bertingkat untuk distribusi ke 8 asnaf mustahik. Audit trail lengkap, foto bukti, dan laporan ringkas.
+                    </p>
+                </div>
+
+                <!-- Akuntansi Syariah -->
+                <div class="bg-white border border-slate-100 hover:border-emerald-200 rounded-3xl p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
+                    <div class="w-12 h-12 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center mb-5 group-hover:bg-emerald-600 group-hover:text-white transition-colors duration-300">
+                        <i class="fa-solid fa-book-journal-whills text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-950 mb-2">Akuntansi Syariah</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Jurnal otomatis sesuai PSAK 109, neraca, laporan sumber & penggunaan dana. Siap audit kapan saja secara amanah.
+                    </p>
+                </div>
+
+                <!-- Dashboard Eksekutif -->
+                <div class="bg-white border border-slate-100 hover:border-emerald-200 rounded-3xl p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
+                    <div class="w-12 h-12 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center mb-5 group-hover:bg-emerald-600 group-hover:text-white transition-colors duration-300">
+                        <i class="fa-solid fa-chart-line text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-950 mb-2">Dashboard Eksekutif</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Pantau pertumbuhan donasi, top mustahik, dan kesehatan keuangan lembaga secara real-time kapan pun dan di mana pun.
+                    </p>
+                </div>
+
+                <!-- Multi Cabang -->
+                <div class="bg-white border border-slate-100 hover:border-emerald-200 rounded-3xl p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
+                    <div class="w-12 h-12 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center mb-5 group-hover:bg-emerald-600 group-hover:text-white transition-colors duration-300">
+                        <i class="fa-solid fa-network-wired text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-950 mb-2">Multi Cabang</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Kelola beberapa cabang atau unit lembaga dalam satu sistem. Data terpisah per cabang dengan konsolidasi laporan pusat.
+                    </p>
+                </div>
+
+                <!-- Website Donasi -->
+                <div class="bg-white border border-slate-100 hover:border-emerald-200 rounded-3xl p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
+                    <div class="w-12 h-12 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center mb-5 group-hover:bg-emerald-600 group-hover:text-white transition-colors duration-300">
+                        <i class="fa-solid fa-globe text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-950 mb-2">Website Donasi</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Halaman donasi & crowdfunding siap pakai dengan branding lembaga sendiri. Cocok untuk program rutin maupun darurat.
+                    </p>
+                </div>
+
+                <!-- WhatsApp Otomatis -->
+                <div class="bg-white border border-slate-100 hover:border-emerald-200 rounded-3xl p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
+                    <div class="w-12 h-12 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center mb-5 group-hover:bg-emerald-600 group-hover:text-white transition-colors duration-300">
+                        <i class="fa-brands fa-whatsapp text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-950 mb-2">WhatsApp Otomatis</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Kirim konfirmasi donasi, kuitansi digital, dan broadcast program kemanusiaan lewat WhatsApp gateway populer otomatis.
+                    </p>
+                </div>
+
+                <!-- Keamanan & Audit -->
+                <div class="bg-white border border-slate-100 hover:border-emerald-200 rounded-3xl p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
+                    <div class="w-12 h-12 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center mb-5 group-hover:bg-emerald-600 group-hover:text-white transition-colors duration-300">
+                        <i class="fa-solid fa-shield-halved text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-950 mb-2">Keamanan & Audit</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Activity log per pengguna, role-based access control, dan data backup rutin otomatis. Data lembaga super aman.
+                    </p>
+                </div>
+
             </div>
         </div>
     </section>
 
     <!-- -->
     <!-- About Us Section -->
-    <section id="about" class="py-24 bg-slate-950/60 relative border-t border-slate-900">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-                <!-- Left: Cyber Visual Mockup -->
-                <div class="lg:col-span-5 relative">
-                    <div class="absolute inset-0 bg-gradient-to-tr from-cyber-neonCyan to-cyber-neonPink rounded-3xl opacity-20 blur-xl"></div>
-                    <img src="https://placehold.co/600x600/0d1527/ffffff?text=AkuntansiZakat+Cyber+Dashboard" alt="Dashboard Keuangan AkuntansiZakat" class="rounded-3xl border border-cyber-neonCyan/40 shadow-neon-cyan w-full object-cover">
+    <section id="tentang" class="py-20 md:py-28 bg-white relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+            <div class="grid lg:grid-cols-12 gap-16 items-center">
+                
+                <!-- Left Image & Geo SEO Signal -->
+                <div class="lg:col-span-5 space-y-6">
+                    <div class="relative">
+                        <div class="absolute -top-4 -left-4 w-full h-full bg-emerald-100 rounded-3xl -z-10"></div>
+                        <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=800&q=80" alt="Lembaga Zakat Berdaya" class="rounded-3xl shadow-xl w-full object-cover aspect-square">
+                        
+                        <!-- Mini local card overlay -->
+                        <div class="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur p-4 rounded-2xl shadow-lg border border-emerald-50">
+                            <p class="text-xs font-bold text-emerald-800 flex items-center gap-2"><i class="fa-solid fa-award"></i> Beroperasi dari Jakarta Timur</p>
+                            <p class="text-[11px] text-slate-500 mt-1">Siap berkontribusi mempercepat transformasi digital LAZ di seluruh wilayah Indonesia.</p>
+                        </div>
+                    </div>
                 </div>
 
-                <!-- Right: About Context with local & SEO keywords -->
+                <!-- Right Narrative Content -->
                 <div class="lg:col-span-7 space-y-6">
-                    <div class="text-cyber-neonPink font-orbitron tracking-widest font-bold uppercase text-sm">
-                        [ 01 // TENTANG KAMI ]
-                    </div>
-                    <h2 class="text-3xl sm:text-4xl font-black font-orbitron text-white leading-tight">
-                        Mengubah Pembukuan Tradisional Menjadi Ekosistem <span class="text-cyber-neonCyan">Digital Syariah</span>
-                    </h2>
-                    <p class="text-slate-400 leading-relaxed text-sm sm:text-base">
-                        <strong>AkuntansiZakat</strong> hadir sebagai mitra strategis UPZ (Unit Pengumpul Zakat), Lembaga Amil Zakat (LAZ), yayasan sosial, pengelola infaq, shadaqah, dan DKM masjid di seluruh Indonesia. Kami mengombinasikan keandalan standar akuntansi nasional (PSAK 109) dengan kekuatan sistem digital berbasis komputasi awan (*cloud*) berkeamanan tingkat tinggi.
-                    </p>
-                    <p class="text-slate-400 leading-relaxed text-sm sm:text-base">
-                        Sistem kami dirancang agar pengelolaan keuangan transparan, real-time, dan mudah diakses oleh para muzakki (pemberi zakat) maupun mustahik (penerima manfaat), guna melahirkan rasa saling percaya dalam membangun umat yang mandiri dan berdaya.
+                    <span class="text-emerald-600 font-bold text-sm tracking-widest uppercase">Misi & Nilai Kami</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-950 leading-tight">Lahir dari Kebutuhan Lembaga Zakat Indonesia</h2>
+                    <p class="text-slate-600 leading-relaxed">
+                        Banyak LAZ mengelola donasi menggunakan Excel manual atau aplikasi keuangan generic. Kami percaya lembaga zakat berhak mendapat sistem yang dirancang khusus untuk kebutuhan mereka - sederhana dipakai, kuat untuk audit, dan transparan untuk muzaki.
                     </p>
 
-                    <div class="grid grid-cols-2 gap-4 pt-4">
-                        <div class="border-l-4 border-cyber-neonCyan pl-4">
-                            <span class="block text-2xl font-black text-white font-orbitron">100%</span>
-                            <span class="text-xs text-slate-500 uppercase tracking-widest">Sesuai PSAK 109 & Syariah</span>
+                    <!-- Core Values Cards -->
+                    <div class="grid sm:grid-cols-3 gap-6 pt-4">
+                        
+                        <!-- Value A -->
+                        <div class="bg-emerald-50/50 p-5 rounded-2xl border border-emerald-100">
+                            <div class="w-10 h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center font-black text-lg mb-3">
+                                A
+                            </div>
+                            <h4 class="font-bold text-slate-950 mb-1 text-base">Amanah</h4>
+                            <p class="text-xs text-slate-600 leading-relaxed">Sistem dibangun dengan prinsip transparansi penuh. Setiap rupiah donasi tercatat dan terlacak secara akurat.</p>
                         </div>
-                        <div class="border-l-4 border-cyber-neonPink pl-4">
-                            <span class="block text-2xl font-black text-white font-orbitron">Real-time</span>
-                            <span class="text-xs text-slate-500 uppercase tracking-widest">Laporan Kapan Saja & Di mana Saja</span>
+
+                        <!-- Value P -->
+                        <div class="bg-emerald-50/50 p-5 rounded-2xl border border-emerald-100">
+                            <div class="w-10 h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center font-black text-lg mb-3">
+                                P
+                            </div>
+                            <h4 class="font-bold text-slate-950 mb-1 text-base">Profesional</h4>
+                            <p class="text-xs text-slate-600 leading-relaxed">Sesuai standar baku PSAK 109, audit-ready, dan dilengkapi workflow approval bertingkat demi kepatuhan regulasi.</p>
                         </div>
+
+                        <!-- Value B -->
+                        <div class="bg-emerald-50/50 p-5 rounded-2xl border border-emerald-100">
+                            <div class="w-10 h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center font-black text-lg mb-3">
+                                B
+                            </div>
+                            <h4 class="font-bold text-slate-950 mb-1 text-base">Berdampak</h4>
+                            <p class="text-xs text-slate-600 leading-relaxed">Membantu lembaga zakat fokus maksimal pada misi sosial mulia mereka, bukan pada hambatan administrasi.</p>
+                        </div>
+
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- -->
-    <!-- Our Service Section -->
-    <section id="services" class="py-24 relative city-grid">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
-                <div class="text-cyber-neonGreen font-orbitron tracking-widest font-bold uppercase text-sm">
-                    [ 02 // LAYANAN KAMI ]
-                </div>
-                <h2 class="text-3xl sm:text-4xl font-black font-orbitron text-white">
-                    Solusi Sistem Akuntansi Terlengkap & Modern
-                </h2>
-                <p class="text-slate-400">
-                    Kami menyusun platform digital akuntansi zakat khusus yang disesuaikan dengan kebutuhan lembaga pengelola dana sosial islam di Indonesia.
-                </p>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <!-- Service 1 -->
-                <div class="bg-cyber-card/80 border border-slate-800 hover:border-cyber-neonCyan/60 rounded-2xl p-6 transition-all duration-300 hover:-translate-y-2 hover:shadow-neon-cyan">
-                    <div class="w-12 h-12 rounded-xl bg-cyber-neonCyan/10 border border-cyber-neonCyan flex items-center justify-center text-cyber-neonCyan text-xl mb-4">
-                        <i class="fa-solid fa-file-invoice-dollar"></i>
-                    </div>
-                    <h3 class="text-lg font-bold font-orbitron text-white mb-2">Sistem Laporan PSAK 109</h3>
-                    <p class="text-xs text-slate-400 leading-relaxed">
-                        Pencatatan dana zakat, infaq, shadaqah, dan dana amil yang terpisah secara akurat sesuai regulasi IAI.
-                    </p>
-                </div>
-
-                <!-- Service 2 -->
-                <div class="bg-cyber-card/80 border border-slate-800 hover:border-cyber-neonPink/60 rounded-2xl p-6 transition-all duration-300 hover:-translate-y-2 hover:shadow-neon-pink">
-                    <div class="w-12 h-12 rounded-xl bg-cyber-neonPink/10 border border-cyber-neonPink flex items-center justify-center text-cyber-neonPink text-xl mb-4">
-                        <i class="fa-solid fa-users"></i>
-                    </div>
-                    <h3 class="text-lg font-bold font-orbitron text-white mb-2">Portal Online</h3>
-                    <p class="text-xs text-slate-400 leading-relaxed">
-                        Halaman untuk memantau langsung kontribusi, histori zakat, serta kemanfaatan yang disalurkan.
-                    </p>
-                </div>
-
-                <!-- Service 3 -->
-                <div class="bg-cyber-card/80 border border-slate-800 hover:border-cyber-neonGreen/60 rounded-2xl p-6 transition-all duration-300 hover:-translate-y-2 hover:shadow-neon-green">
-                    <div class="w-12 h-12 rounded-xl bg-cyber-neonGreen/10 border border-cyber-neonGreen flex items-center justify-center text-cyber-neonGreen text-xl mb-4">
-                        <i class="fa-solid fa-chart-line"></i>
-                    </div>
-                    <h3 class="text-lg font-bold font-orbitron text-white mb-2">Dashboard Real-time</h3>
-                    <p class="text-xs text-slate-400 leading-relaxed">
-                        Visualisasi grafis penerimaan harian, mingguan, bulanan untuk mempermudah pengambilan keputusan amil.
-                    </p>
-                </div>
-
-                <!-- Service 4 -->
-                <div class="bg-cyber-card/80 border border-slate-800 hover:border-cyber-neonCyan/60 rounded-2xl p-6 transition-all duration-300 hover:-translate-y-2 hover:shadow-neon-cyan">
-                    <div class="w-12 h-12 rounded-xl bg-cyber-neonCyan/10 border border-cyber-neonCyan flex items-center justify-center text-cyber-neonCyan text-xl mb-4">
-                        <i class="fa-solid fa-shield-halved"></i>
-                    </div>
-                    <h3 class="text-lg font-bold font-orbitron text-white mb-2">Audit & Sertifikasi</h3>
-                    <p class="text-xs text-slate-400 leading-relaxed">
-                        Membantu persiapan data keuangan lembaga Anda agar selalu siap menghadapi audit syariah resmi & auditor independen.
-                    </p>
-                </div>
             </div>
         </div>
     </section>
 
     <!-- -->
     <!-- Our Client Section -->
-    <section id="clients" class="py-16 bg-slate-950/80 border-t border-b border-slate-900">
+    <section id="klien" class="py-16 bg-slate-50 border-y border-emerald-100/50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-8">
-                <span class="text-xs font-bold font-orbitron uppercase tracking-widest text-slate-500">
-                    Mitra & Lembaga Terpercaya yang Menggunakan Platform Kami
-                </span>
+                <span class="text-xs font-bold uppercase tracking-wider text-slate-500 block">Telah Dipercaya Oleh Berbagai Lembaga Amil Zakat & Yayasan</span>
             </div>
-            <!-- Client Logos Grid with Neon Cyberpunk Mock Logos -->
-            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 items-center justify-center opacity-70">
-                <div class="flex justify-center text-lg font-bold font-orbitron tracking-widest text-slate-400 hover:text-cyber-neonCyan transition-colors">
-                    <i class="fa-solid fa-mosque mr-2"></i> DPF
+            
+            <!-- Scrolling Logo Mockup (Responsive Grid & Flex Elements) -->
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6 items-center justify-items-center opacity-70 grayscale hover:grayscale-0 transition-all duration-300">
+                <div class="flex items-center gap-2 font-black text-slate-500">
+                    <i class="fa-solid fa-hand-holding-heart text-2xl text-emerald-500"></i> LAZ Peduli Ummat
                 </div>
-                <div class="flex justify-center text-lg font-bold font-orbitron tracking-widest text-slate-400 hover:text-cyber-neonPink transition-colors">
-                    <i class="fa-solid fa-hand-holding-heart mr-2"></i> ZAKATSUKSES
+                <div class="flex items-center gap-2 font-black text-slate-500">
+                    <i class="fa-solid fa-synagogue text-2xl text-emerald-500"></i> Yayasan Al-Azhar
                 </div>
-                <div class="flex justify-center text-lg font-bold font-orbitron tracking-widest text-slate-400 hover:text-cyber-neonGreen transition-colors">
-                    <i class="fa-solid fa-star-and-crescent mr-2"></i> BMMII
+                <div class="flex items-center gap-2 font-black text-slate-500">
+                    <i class="fa-solid fa-graduation-cap text-2xl text-emerald-500"></i> Lembaga Wakaf Quran
                 </div>
-                <div class="flex justify-center text-lg font-bold font-orbitron tracking-widest text-slate-400 hover:text-cyber-neonCyan transition-colors">
-                    <i class="fa-solid fa-users-viewfinder mr-2"></i> ADARA
+                <div class="flex items-center gap-2 font-black text-slate-500">
+                    <i class="fa-solid fa-shield text-2xl text-emerald-500"></i> Dompet Amanah
                 </div>
-                <div class="flex justify-center text-lg font-bold font-orbitron tracking-widest text-slate-400 hover:text-cyber-neonPink transition-colors col-span-2 md:col-span-4 lg:col-span-1">
-                    <i class="fa-solid fa-scale-balanced mr-2"></i> LAZDAI
+                <div class="flex items-center gap-2 font-black text-slate-500">
+                    <i class="fa-solid fa-heart-pulse text-2xl text-emerald-500"></i> Sinergi Sehat
+                </div>
+                <div class="flex items-center gap-2 font-black text-slate-500">
+                    <i class="fa-solid fa-building-columns text-2xl text-emerald-500"></i> Yayasan Peduli
                 </div>
             </div>
         </div>
@@ -453,351 +561,492 @@
 
     <!-- -->
     <!-- Testimony Section -->
-    <section id="testimonials" class="py-24 relative overflow-hidden">
-        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-cyber-neonPink/5 rounded-full blur-3xl"></div>
-
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
-                <div class="text-cyber-neonPink font-orbitron tracking-widest font-bold uppercase text-sm">
-                    [ 03 // TESTIMONI PENGGUNA ]
-                </div>
-                <h2 class="text-3xl sm:text-4xl font-black font-orbitron text-white">
-                    Apa Kata Para Amil & Pengelola Lembaga?
-                </h2>
-                <p class="text-slate-400">
-                    Pengalaman nyata dari mereka yang telah mendigitalkan akuntansi keuangannya di kawasan DKI Jakarta bersama kami.
-                </p>
+    <section id="testimoni" class="py-20 md:py-28 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-emerald-600 font-bold text-sm tracking-widest uppercase">Bukti Nyata</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-950 mt-2">Ulasan Jujur Pengguna ZakatMyID</h2>
+                <p class="text-slate-600 mt-4">Dengarkan kisah sukses lembaga yang berhasil menghemat waktu administrasi hingga 80% dengan platform kami.</p>
             </div>
 
-            <!-- Grid Testimonials -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- Testimonial 1 -->
-                <div class="bg-cyber-card/90 border border-slate-800 rounded-2xl p-8 relative flex flex-col justify-between">
-                    <div class="text-cyber-neonCyan text-4xl mb-4 font-serif">“</div>
-                    <p class="text-slate-300 text-sm leading-relaxed mb-6 italic">
-                        "Sebelumnya pembukuan zakat & infaq di yayasan kami sering tercampur. Dengan sistem AkuntansiZakat ini, seluruh dana tersegregasi otomatis sesuai prinsip syariah. Warga Pasar Rebo kini lebih percaya menyalurkan zakat di tempat kami."
-                    </p>
-                    <div class="flex items-center gap-4">
-                        <img src="https://placehold.co/100x100/1e293b/ffffff?text=Ustadz+Ahmad" alt="Ustadz Ahmad" class="w-12 h-12 rounded-full border border-cyber-neonCyan">
+            <div class="grid md:grid-cols-3 gap-8">
+                
+                <!-- Testimony 1 -->
+                <div class="bg-slate-50 rounded-3xl p-8 border border-slate-100 flex flex-col justify-between hover:shadow-lg transition-shadow duration-300">
+                    <div class="space-y-4">
+                        <div class="flex text-amber-400 gap-1">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-slate-600 italic">
+                            "Sebelum menggunakan ZakatMyID, laporan keuangan PSAK 109 membutuhkan waktu berminggu-minggu menggunakan Excel. Sekarang, sistem jurnal otomatisnya bekerja secepat kilat. Sangat direkomendasikan untuk LAZ modern!"
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-4 mt-6 pt-6 border-t border-slate-200/60">
+                        <div class="w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center font-bold text-emerald-700 text-lg">AH</div>
                         <div>
-                            <h4 class="text-sm font-bold text-white font-orbitron">Ustadz</h4>
-                            <span class="text-xs text-slate-500">Ketua Yayasan, Pasar Rebo</span>
+                            <h4 class="font-bold text-slate-950 text-sm">H. Ahmad Hidayat</h4>
+                            <p class="text-xs text-slate-500">Ketua Yayasan Amil Zakat Jakarta</p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Testimonial 2 -->
-                <div class="bg-cyber-card/90 border border-slate-800 rounded-2xl p-8 relative flex flex-col justify-between">
-                    <div class="text-cyber-neonPink text-4xl mb-4 font-serif">“</div>
-                    <p class="text-slate-300 text-sm leading-relaxed mb-6 italic">
-                        "Sistem pelaporan keuangannya sangat rapi & cepat diekspor untuk audit. Fitur pengiriman bukti terima zakat via chat digital ke muzakki sungguh menghemat biaya admin & waktu kami. Sangat direkomendasikan!"
-                    </p>
-                    <div class="flex items-center gap-4">
-                        <img src="https://placehold.co/100x100/1e293b/ffffff?text=Ibu+Ratna" alt="Ibu Ratna" class="w-12 h-12 rounded-full border border-cyber-neonPink">
+                <!-- Testimony 2 -->
+                <div class="bg-slate-50 rounded-3xl p-8 border border-slate-100 flex flex-col justify-between hover:shadow-lg transition-shadow duration-300">
+                    <div class="space-y-4">
+                        <div class="flex text-amber-400 gap-1">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-slate-600 italic">
+                            "Fitur pengiriman WhatsApp otomatis untuk kuitansi donasi sangat diapresiasi oleh para muzaki kami. Mereka merasa tenang karena konfirmasinya cepat, transparan, dan resmi dari sistem ZakatMyID."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-4 mt-6 pt-6 border-t border-slate-200/60">
+                        <div class="w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center font-bold text-emerald-700 text-lg">RK</div>
                         <div>
-                            <h4 class="text-sm font-bold text-white font-orbitron">Ibu Hajjah</h4>
-                            <span class="text-xs text-slate-500">Bendahara LAZIS Jakarta Timur</span>
+                            <h4 class="font-bold text-slate-950 text-sm">Hj. Rina Kartika</h4>
+                            <p class="text-xs text-slate-500">Manajer Operasional LAZ DKI Jakarta</p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Testimonial 3 -->
-                <div class="bg-cyber-card/90 border border-slate-800 rounded-2xl p-8 relative flex flex-col justify-between">
-                    <div class="text-cyber-neonGreen text-4xl mb-4 font-serif">“</div>
-                    <p class="text-slate-300 text-sm leading-relaxed mb-6 italic">
-                        "Alhamdulillah, integrasi website szakat.id mempermudah dewan pengawas syariah kami melakukan review rutin tanpa harus datang ke kantor pusat. Transparan dan profesional."
-                    </p>
-                    <div class="flex items-center gap-4">
-                        <img src="https://placehold.co/100x100/1e293b/ffffff?text=Bapak+Hasan" alt="Bapak Hasan" class="w-12 h-12 rounded-full border border-cyber-neonGreen">
+                <!-- Testimony 3 -->
+                <div class="bg-slate-50 rounded-3xl p-8 border border-slate-100 flex flex-col justify-between hover:shadow-lg transition-shadow duration-300">
+                    <div class="space-y-4">
+                        <div class="flex text-amber-400 gap-1">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-slate-600 italic">
+                            "Mengelola cabang LAZ kami di Pasar Rebo dan Kramat Jati kini jauh lebih mudah berkat fitur Multi Cabang. Konsolidasi keuangan bisa dipantau langsung dari HP saya secara real-time."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-4 mt-6 pt-6 border-t border-slate-200/60">
+                        <div class="w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center font-bold text-emerald-700 text-lg">SU</div>
                         <div>
-                            <h4 class="text-sm font-bold text-white font-orbitron">Bapak Haji</h4>
-                            <span class="text-xs text-slate-500">Manager Operasional Baitul Maal</span>
+                            <h4 class="font-bold text-slate-950 text-sm">Syarifudin Udin</h4>
+                            <p class="text-xs text-slate-500">Direktur Keuangan LAZ Wilayah Timur</p>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
 
     <!-- -->
     <!-- Our Team Section -->
-    <section id="team" class="py-24 bg-slate-950/60 relative border-t border-b border-slate-900">
+    <section id="tim" class="py-20 md:py-28 bg-slate-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
-                <div class="text-cyber-neonCyan font-orbitron tracking-widest font-bold uppercase text-sm">
-                    [ 04 // TIM AHLI KAMI ]
-                </div>
-                <h2 class="text-3xl sm:text-4xl font-black font-orbitron text-white">
-                    Didukung Ahli Syariah & Teknologi Keuangan
-                </h2>
-                <p class="text-slate-400">
-                    Kolaborasi para profesional berpengalaman untuk melayani akuntansi modern yang akurat dan dapat dipertanggungjawabkan.
-                </p>
+            
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-emerald-600 font-bold text-sm tracking-widest uppercase">Di Balik Layar</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-950 mt-2">Para Ahli & Profesional Kami</h2>
+                <p class="text-slate-600 mt-4">Tim berpengalaman kami berkomitmen melayani kebutuhan digitalisasi lembaga syariah Anda dengan sepenuh hati.</p>
             </div>
 
+            <!-- Team Grid -->
+            <div class="grid md:grid-cols-4 gap-8">
+                
+                <!-- Team Member 1 -->
+                <div class="bg-white rounded-3xl p-5 border border-slate-100 text-center group hover:shadow-xl transition-all duration-300">
+                    <div class="relative overflow-hidden rounded-2xl mb-4 aspect-square bg-emerald-50 flex items-center justify-center">
+                        <i class="fa-solid fa-user-tie text-6xl text-emerald-300"></i>
+                    </div>
+                    <p class="text-[11px] text-slate-500 mt-2">Berpengalaman 10 tahun di industri teknologi keuangan & syariah Indonesia.</p>
+                </div>
+
+                <!-- Team Member 2 -->
+                <div class="bg-white rounded-3xl p-5 border border-slate-100 text-center group hover:shadow-xl transition-all duration-300">
+                    <div class="relative overflow-hidden rounded-2xl mb-4 aspect-square bg-emerald-50 flex items-center justify-center">
+                        <i class="fa-solid fa-user-gear text-6xl text-emerald-300"></i>
+                    </div>
+                    <p class="text-[11px] text-slate-500 mt-2">Memastikan validasi perhitungan akuntansi zakat selalu patuh regulasi resmi Kemenag.</p>
+                </div>
+
+                <!-- Team Member 3 -->
+                <div class="bg-white rounded-3xl p-5 border border-slate-100 text-center group hover:shadow-xl transition-all duration-300">
+                    <div class="relative overflow-hidden rounded-2xl mb-4 aspect-square bg-emerald-50 flex items-center justify-center">
+                        <i class="fa-solid fa-laptop-code text-6xl text-emerald-300"></i>
+                    </div>
+                    <p class="text-[11px] text-slate-500 mt-2">Spesialis pengembang arsitektur server aman, database terenkripsi, dan integrasi API.</p>
+                </div>
+
+                <!-- Team Member 4 -->
+                <div class="bg-white rounded-3xl p-5 border border-slate-100 text-center group hover:shadow-xl transition-all duration-300">
+                    <div class="relative overflow-hidden rounded-2xl mb-4 aspect-square bg-emerald-50 flex items-center justify-center">
+                        <i class="fa-solid fa-headset text-6xl text-emerald-300"></i>
+                    </div>
+                    <p class="text-[11px] text-slate-500 mt-2">Selalu siap melayani kendala pengguna, training sistem gratis, dan pendampingan migrasi data.</p>
+                </div>
+
+            </div>
         </div>
     </section>
 
     <!-- -->
-    <!-- FAQ Section (AEO Optimized with Direct, High Quality Answers) -->
-    <section id="faq" class="py-24 relative city-grid" x-data="{ activeFaq: null }">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="text-center mb-16 space-y-4">
-                <div class="text-cyber-neonGreen font-orbitron tracking-widest font-bold uppercase text-sm">
-                    [ 05 // FAQ ]
-                </div>
-                <h2 class="text-3xl sm:text-4xl font-black font-orbitron text-white">
-                    Pertanyaan yang Sering Diajukan (FAQ)
-                </h2>
-                <p class="text-slate-400">
-                    Punya pertanyaan seputar sistem akuntansi zakat? Temukan jawabannya di bawah ini.
-                </p>
+    <!-- FAQ Section (AEO and Rich Snippet Oriented) -->
+    <section id="faq" class="py-20 md:py-28 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-emerald-600 font-bold text-sm tracking-widest uppercase font-bold">Frequently Asked Questions</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-950 mt-2">Pertanyaan yang Sering Diajukan</h2>
+                <p class="text-slate-600 mt-4">Punya pertanyaan mengenai implementasi ZakatMyID? Temukan jawaban lengkapnya di bawah ini.</p>
             </div>
 
-            <!-- Accordion Group -->
+            <!-- Accordion List -->
             <div class="space-y-4">
+                
                 <!-- FAQ 1 -->
-                <div class="bg-cyber-card/90 border border-slate-800 rounded-2xl overflow-hidden">
-                    <button @click="activeFaq = activeFaq === 1 ? null : 1" class="w-full px-6 py-5 text-left flex justify-between items-center text-white hover:text-cyber-neonCyan transition-all duration-300">
-                        <span class="font-bold text-base sm:text-lg">Apakah sistem AkuntansiZakat ini sudah sesuai PSAK 109?</span>
-                        <i class="fa-solid" :class="activeFaq === 1 ? 'fa-minus text-cyber-neonCyan' : 'fa-plus'"></i>
+                <div class="border border-emerald-100/80 rounded-2xl overflow-hidden transition-all duration-200 bg-slate-50/50">
+                    <button class="w-full text-left p-6 font-bold text-slate-900 flex justify-between items-center hover:bg-emerald-50/30 transition-colors" onclick="toggleFaq(1)">
+                        <span>Apakah sistem ZakatMyID sudah mendukung standar Akuntansi PSAK 109?</span>
+                        <i id="faqIcon1" class="fa-solid fa-chevron-down text-slate-400 transition-transform duration-200"></i>
                     </button>
-                    <div x-show="activeFaq === 1" x-collapse x-transition class="px-6 pb-6 text-slate-400 text-sm leading-relaxed border-t border-slate-800/50 pt-4">
-                        Ya, sistem AkuntansiZakat sepenuhnya mengacu pada Pernyataan Standar Akuntansi Keuangan No. 109 (PSAK 109) mengenai Akuntansi Zakat, Infak, dan Sedekah. Seluruh pembukuan, pengalokasian dana amil, hingga penerbitan laporan aset kelolaan terpisah secara ketat dan otomatis.
+                    <div id="faqAns1" class="hidden p-6 pt-0 text-slate-600 border-t border-emerald-50 text-sm leading-relaxed bg-white">
+                        Ya, tentu saja. ZakatMyID dibangun dari nol dengan merujuk langsung pada regulasi akuntansi syariah standar PSAK 109. Jurnal otomatis terbuat ketika transaksi berhasil dicatat, sehingga Anda dapat langsung mencetak neraca saldo, laporan sumber dan penggunaan dana, hingga arus kas secara real-time untuk audit eksternal.
                     </div>
                 </div>
 
                 <!-- FAQ 2 -->
-                <div class="bg-cyber-card/90 border border-slate-800 rounded-2xl overflow-hidden">
-                    <button @click="activeFaq = activeFaq === 2 ? null : 2" class="w-full px-6 py-5 text-left flex justify-between items-center text-white hover:text-cyber-neonCyan transition-all duration-300">
-                        <span class="font-bold text-base sm:text-lg">Di mana lokasi persis kantor operasional AkuntansiZakat?</span>
-                        <i class="fa-solid" :class="activeFaq === 2 ? 'fa-minus text-cyber-neonCyan' : 'fa-plus'"></i>
+                <div class="border border-emerald-100/80 rounded-2xl overflow-hidden transition-all duration-200 bg-slate-50/50">
+                    <button class="w-full text-left p-6 font-bold text-slate-900 flex justify-between items-center hover:bg-emerald-50/30 transition-colors" onclick="toggleFaq(2)">
+                        <span>Apakah kami bisa melakukan uji coba demo secara gratis?</span>
+                        <i id="faqIcon2" class="fa-solid fa-chevron-down text-slate-400 transition-transform duration-200"></i>
                     </button>
-                    <div x-show="activeFaq === 2" x-collapse x-transition class="px-6 pb-6 text-slate-400 text-sm leading-relaxed border-t border-slate-800/50 pt-4">
-                        Kantor operasional kami beralamat resmi di wilayah <strong class="text-white">Pasar Rebo, Jakarta Timur, DKI Jakarta</strong>. Kami juga melayani kunjungan konsultasi langsung di lokasi untuk pengelola masjid maupun lembaga sosial seluruh Indonesia.
+                    <div id="faqAns2" class="hidden p-6 pt-0 text-slate-600 border-t border-emerald-50 text-sm leading-relaxed bg-white">
+                        Sangat bisa! Kami menyediakan masa trial (uji coba) gratis selama 14 hari dengan fitur penuh. Silakan hubungi tim kami melalui tombol WhatsApp untuk mendapatkan akses instan ke lingkungan sandbox demo.
                     </div>
                 </div>
 
                 <!-- FAQ 3 -->
-                <div class="bg-cyber-card/90 border border-slate-800 rounded-2xl overflow-hidden">
-                    <button @click="activeFaq = activeFaq === 3 ? null : 3" class="w-full px-6 py-5 text-left flex justify-between items-center text-white hover:text-cyber-neonCyan transition-all duration-300">
-                        <span class="font-bold text-base sm:text-lg">Bagaimana cara mengakses demo sistemnya?</span>
-                        <i class="fa-solid" :class="activeFaq === 3 ? 'fa-minus text-cyber-neonCyan' : 'fa-plus'"></i>
+                <div class="border border-emerald-100/80 rounded-2xl overflow-hidden transition-all duration-200 bg-slate-50/50">
+                    <button class="w-full text-left p-6 font-bold text-slate-900 flex justify-between items-center hover:bg-emerald-50/30 transition-colors" onclick="toggleFaq(3)">
+                        <span>Bagaimana mengenai keamanan data muzaki dan donatur di server?</span>
+                        <i id="faqIcon3" class="fa-solid fa-chevron-down text-slate-400 transition-transform duration-200"></i>
                     </button>
-                    <div x-show="activeFaq === 3" x-collapse x-transition class="px-6 pb-6 text-slate-400 text-sm leading-relaxed border-t border-slate-800/50 pt-4">
-                        Anda dapat mengajukan permohonan akun demo gratis secara langsung dengan menghubungi nomor WhatsApp resmi kami di <strong class="text-cyber-neonCyan">083180296984</strong> atau mengirim pesan langsung via formulir kontak di website ini.
+                    <div id="faqAns3" class="hidden p-6 pt-0 text-slate-600 border-t border-emerald-50 text-sm leading-relaxed bg-white">
+                        Keamanan data adalah prioritas utama kami. ZakatMyID menggunakan server cloud dengan enkripsi SSL 256-bit kelas perbankan, dilengkapi backup otomatis terjadwal harian, serta fitur activity log yang mendata setiap aktivitas akses user guna menghindari fraud atau pencurian data.
                     </div>
                 </div>
 
                 <!-- FAQ 4 -->
-                <div class="bg-cyber-card/90 border border-slate-800 rounded-2xl overflow-hidden">
-                    <button @click="activeFaq = activeFaq === 4 ? null : 4" class="w-full px-6 py-5 text-left flex justify-between items-center text-white hover:text-cyber-neonCyan transition-all duration-300">
-                        <span class="font-bold text-base sm:text-lg">Apakah sistem ini aman dari risiko kebocoran data?</span>
-                        <i class="fa-solid" :class="activeFaq === 4 ? 'fa-minus text-cyber-neonCyan' : 'fa-plus'"></i>
+                <div class="border border-emerald-100/80 rounded-2xl overflow-hidden transition-all duration-200 bg-slate-50/50">
+                    <button class="w-full text-left p-6 font-bold text-slate-900 flex justify-between items-center hover:bg-emerald-50/30 transition-colors" onclick="toggleFaq(4)">
+                        <span>Di mana alamat fisik operasional ZakatMyID?</span>
+                        <i id="faqIcon4" class="fa-solid fa-chevron-down text-slate-400 transition-transform duration-200"></i>
                     </button>
-                    <div x-show="activeFaq === 4" x-collapse x-transition class="px-6 pb-6 text-slate-400 text-sm leading-relaxed border-t border-slate-800/50 pt-4">
-                        Keamanan data adalah prioritas utama kami. Platform AkuntansiZakat dienkripsi  didistribusikan menggunakan multi-cloud server untuk memastikan data amil, muzakki, dan mustahik aman terlindungi setiap hari.
+                    <div id="faqAns4" class="hidden p-6 pt-0 text-slate-600 border-t border-emerald-50 text-sm leading-relaxed bg-white">
+                        Kantor operasional utama kami beralamat lengkap di Pasar Rebo, Jakarta Timur, DKI Jakarta. Kami sangat terbuka jika Anda ingin berkunjung secara offline untuk berdiskusi, berkonsultasi, maupun meminta presentasi langsung dari tim ahli kami.
                     </div>
                 </div>
+
+                <!-- FAQ 5 -->
+                <div class="border border-emerald-100/80 rounded-2xl overflow-hidden transition-all duration-200 bg-slate-50/50">
+                    <button class="w-full text-left p-6 font-bold text-slate-900 flex justify-between items-center hover:bg-emerald-50/30 transition-colors" onclick="toggleFaq(5)">
+                        <span>Apakah ZakatMyID menyediakan kustomisasi fitur sesuai alur yayasan kami?</span>
+                        <i id="faqIcon5" class="fa-solid fa-chevron-down text-slate-400 transition-transform duration-200"></i>
+                    </button>
+                    <div id="faqAns5" class="hidden p-6 pt-0 text-slate-600 border-t border-emerald-50 text-sm leading-relaxed bg-white">
+                        Ya. Kami menyadari setiap yayasan/LAZ memiliki alur birokrasi dan persetujuan khusus. Paket Enterprise kami menawarkan fleksibilitas penuh untuk kustomisasi alur (workflow), integrasi API dengan perbankan nasional, hingga sinkronisasi dengan database internal yayasan Anda.
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
 
     <!-- -->
     <!-- Contact Us Section -->
-    <section id="contact" class="py-24 bg-slate-950/80 border-t border-slate-900 relative">
+    <section id="kontak" class="py-20 md:py-28 bg-slate-50 border-t border-emerald-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
-
-                <!-- Contact Info Pane (Left) -->
-                <div class="lg:col-span-5 space-y-6">
-                    <div class="text-cyber-neonPink font-orbitron tracking-widest font-bold uppercase text-sm">
-                        [ 06 // HUBUNGI KAMI ]
+            <div class="grid lg:grid-cols-12 gap-12">
+                
+                <!-- Contact Info Left Card -->
+                <div class="lg:col-span-5 space-y-8">
+                    <div>
+                        <span class="text-emerald-600 font-bold text-sm tracking-widest uppercase">Hubungi Kami</span>
+                        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-950 mt-2">Hubungi Tim Ahli ZakatMyID</h2>
+                        <p class="text-slate-600 mt-4 leading-relaxed">
+                            Butuh bantuan teknis, proposal penawaran, atau ingin menjadwalkan presentasi tatap muka? Tim representasi kami di Jakarta Timur siap merespons Anda secepatnya.
+                        </p>
                     </div>
-                    <h2 class="text-3xl sm:text-4xl font-black font-orbitron text-white">
-                        Siap Memulai Transformasi Syariah Digital Anda?
-                    </h2>
-                    <p class="text-slate-400 leading-relaxed text-sm sm:text-base">
-                        Diskusikan kebutuhan pelaporan zakat, infaq, dan shadaqah lembaga Anda dengan tim profesional kami di Jakarta Timur secara gratis.
-                    </p>
 
-                    <div class="space-y-4 pt-4">
-                        <!-- Phone -->
-                        <div class="flex items-center gap-4">
-                            <div class="w-10 h-10 rounded-lg bg-cyber-neonCyan/10 border border-cyber-neonCyan/30 flex items-center justify-center text-cyber-neonCyan">
-                                <i class="fa-solid fa-phone"></i>
-                            </div>
+                    <div class="space-y-4">
+                        <div class="flex items-start gap-4 p-4 bg-white rounded-2xl border border-slate-100 shadow-sm">
+                            <span class="w-10 h-10 rounded-xl bg-emerald-50 flex items-center justify-center text-emerald-600 shrink-0"><i class="fa-solid fa-location-dot"></i></span>
                             <div>
-                                <span class="text-xs text-slate-500 block">WhatsApp / Telepon</span>
-                                <a href="tel:083180296984" class="text-white hover:text-cyber-neonCyan font-bold">0831-8029-6984</a>
+                                <h4 class="font-bold text-slate-950 text-sm">Alamat Kantor Pusat</h4>
+                                <p class="text-xs text-slate-600 mt-1">Pasar Rebo, Jakarta Timur, DKI Jakarta - 13710</p>
                             </div>
                         </div>
 
-                        <!-- Address -->
-                        <div class="flex items-center gap-4">
-                            <div class="w-10 h-10 rounded-lg bg-cyber-neonPink/10 border border-cyber-neonPink/30 flex items-center justify-center text-cyber-neonPink">
-                                <i class="fa-solid fa-location-dot"></i>
-                            </div>
+                        <div class="flex items-start gap-4 p-4 bg-white rounded-2xl border border-slate-100 shadow-sm">
+                            <span class="w-10 h-10 rounded-xl bg-emerald-50 flex items-center justify-center text-emerald-600 shrink-0"><i class="fa-solid fa-phone"></i></span>
                             <div>
-                                <span class="text-xs text-slate-500 block">Lokasi Kantor Resmi</span>
-                                <span class="text-white font-medium text-sm">Pasar Rebo, Jakarta Timur, DKI Jakarta</span>
+                                <h4 class="font-bold text-slate-950 text-sm">Nomor Telepon / WhatsApp</h4>
+                                <a href="tel:083180296984" class="text-xs text-emerald-600 hover:underline font-semibold mt-1 block">083180296984</a>
                             </div>
                         </div>
 
-                        <!-- Web -->
-                        <div class="flex items-center gap-4">
-                            <div class="w-10 h-10 rounded-lg bg-cyber-neonGreen/10 border border-cyber-neonGreen/30 flex items-center justify-center text-cyber-neonGreen">
-                                <i class="fa-solid fa-earth-americas"></i>
-                            </div>
+                        <div class="flex items-start gap-4 p-4 bg-white rounded-2xl border border-slate-100 shadow-sm">
+                            <span class="w-10 h-10 rounded-xl bg-emerald-50 flex items-center justify-center text-emerald-600 shrink-0"><i class="fa-solid fa-envelope"></i></span>
                             <div>
-                                <span class="text-xs text-slate-500 block">Alamat Website Resmi</span>
-                                <a href="https://szakat.id" target="_blank" class="text-cyber-neonGreen hover:underline font-medium text-sm">szakat.id</a>
+                                <h4 class="font-bold text-slate-950 text-sm">Alamat Email Resmi</h4>
+                                <a href="mailto:info@zakat.my.id" class="text-xs text-emerald-600 hover:underline font-semibold mt-1 block">info@zakat.my.id</a>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Cyber Visual Map Placeholder (High conversion factor for GEO) -->
-                    <div class="mt-8 rounded-2xl overflow-hidden border border-slate-800 shadow-lg relative bg-slate-900 p-4">
-                        <div class="flex justify-between items-center mb-3 text-xs">
-                            <span class="text-slate-400 uppercase font-bold tracking-widest font-orbitron">Pengguna Aplikasi Akuntansi Zakat</span>
-                            <span class="text-cyber-neonCyan flex items-center gap-1"><span class="w-2 h-2 bg-cyber-neonCyan rounded-full animate-ping"></span> Live Pin</span>
-                        </div>
-                        <div class="h-44 rounded-xl bg-slate-950 flex flex-col items-center justify-center border border-cyber-neonCyan/30 text-center p-4">
-                            <i class="fa-solid fa-map-location text-3xl text-cyber-neonCyan mb-2"></i>
-                            <p class="text-xs font-semibold text-white">Pasar Rebo, Jakarta Timur, DKI Jakarta</p>
-                            <span class="text-[10px] text-slate-500 max-w-[250px] mt-1">Sistem kami melayani konsultasi offline Jakarta dan sekitarnya.</span>
+                    <!-- Interactive Mock Map (Using standard OpenStreetMap iframe for safety/SEO signal) -->
+                    <div class="rounded-3xl overflow-hidden border border-slate-200 shadow-md h-64">
+                        <iframe 
+                            src="https://maps.google.com/maps?q=Pasar%20Rebo,%20Jakarta%20Timur&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+                            class="w-full h-full border-0" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+
+                <!-- Contact Form Right Card -->
+                <div class="lg:col-span-7">
+                    <div class="bg-white rounded-3xl p-8 border border-slate-100 shadow-xl relative">
+                        <div class="absolute top-0 right-0 w-24 h-24 bg-emerald-100/40 rounded-full blur-xl pointer-events-none"></div>
+                        
+                        <h3 class="text-xl font-bold text-slate-950 mb-2">Kirim Pesan Instan</h3>
+                        <p class="text-xs text-slate-500 mb-6">Kami biasanya merespons dalam waktu kurang dari 2 jam kerja.</p>
+
+                        <!-- Form -->
+                        <form id="contactForm" onsubmit="handleContactSubmit(event)" class="space-y-4">
+                            <div>
+                                <label class="block text-xs font-bold uppercase text-slate-600 mb-2">Nama Lengkap Anda</label>
+                                <input type="text" required class="w-full p-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-emerald-500 text-sm" placeholder="Contoh: Muhammad Farhan">
+                            </div>
+
+                            <div class="grid sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-bold uppercase text-slate-600 mb-2">Email Aktif</label>
+                                    <input type="email" required class="w-full p-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-emerald-500 text-sm" placeholder="farhan@lembaga.org">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold uppercase text-slate-600 mb-2">Nomor Telepon / WA</label>
+                                    <input type="tel" required class="w-full p-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-emerald-500 text-sm" placeholder="0831xxxxxxxx">
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-bold uppercase text-slate-600 mb-2">Nama Yayasan / Lembaga</label>
+                                <input type="text" class="w-full p-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-emerald-500 text-sm" placeholder="Contoh: LAZ Yayasan Sejahtera">
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-bold uppercase text-slate-600 mb-2">Kebutuhan / Detail Pesan</label>
+                                <textarea rows="4" required class="w-full p-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-emerald-500 text-sm" placeholder="Jelaskan kebutuhan sistem aplikasi Anda..."></button></textarea>
+                            </div>
+
+                            <button type="submit" class="w-full py-3.5 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-xl text-sm transition-all flex items-center justify-center gap-2 shadow-lg shadow-emerald-200">
+                                Kirim Formulir & Hubungi WA
+                            </button>
+                        </form>
+
+                        <!-- Notification Container (No Alert policy) -->
+                        <div id="formSuccessMsg" class="hidden mt-4 p-4 bg-emerald-50 border border-emerald-200 text-emerald-800 rounded-xl text-sm font-semibold flex items-center gap-2">
+                            <i class="fa-solid fa-circle-check text-lg"></i> Terima kasih! Pesan Anda berhasil dikirim, kami akan segera menghubungi Anda.
                         </div>
                     </div>
                 </div>
 
-                <!-- Custom Neon Styled Form (Right) -->
-                <div class="lg:col-span-7 bg-cyber-card/90 border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-neon-pink">
-                    <h3 class="text-xl font-bold font-orbitron text-white mb-6">
-                        KIRIM PESAN LANGSUNG
-                    </h3>
-                    <form @submit.prevent="window.open('https://wa.me/6283180296984?text=Assalamualaikum.%20Saya%20' + document.getElementById('form-name').value + '%20dari%20' + document.getElementById('form-instansi').value + '%20ingin%20tanya%20mengenai%20' + document.getElementById('form-topic').value, '_blank')" class="space-y-5">
-                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                            <div>
-                                <label class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-2">Nama Lengkap</label>
-                                <input type="text" id="form-name" required class="w-full bg-slate-950 border border-slate-800 focus:border-cyber-neonCyan focus:ring-1 focus:ring-cyber-neonCyan text-white text-sm rounded-xl px-4 py-3 outline-none transition-all duration-300">
-                            </div>
-                            <div>
-                                <label class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-2">Nama Lembaga / Masjid</label>
-                                <input type="text" id="form-instansi" required class="w-full bg-slate-950 border border-slate-800 focus:border-cyber-neonCyan focus:ring-1 focus:ring-cyber-neonCyan text-white text-sm rounded-xl px-4 py-3 outline-none transition-all duration-300">
-                            </div>
-                        </div>
-
-                        <div>
-                            <label class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-2">Pilih Layanan</label>
-                            <select id="form-topic" class="w-full bg-slate-950 border border-slate-800 focus:border-cyber-neonCyan focus:ring-1 focus:ring-cyber-neonCyan text-slate-300 text-sm rounded-xl px-4 py-3 outline-none transition-all duration-300">
-                                <option value="Sistem Pembukuan Zakat PSAK 109">Sistem Pembukuan Zakat PSAK 109</option>
-                                <option value="Portal Digital Kemitraan Muzakki">Portal Digital Kemitraan Muzakki</option>
-                                <option value="Audit Kepatuhan Syariah Keuangan">Audit Kepatuhan Syariah Keuangan</option>
-                                <option value="Konsultasi Sistem Lainnya">Konsultasi Lainnya</option>
-                            </select>
-                        </div>
-
-                        <div>
-                            <label class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-2">Kebutuhan Detail Anda</label>
-                            <textarea rows="4" placeholder="Tulis rincian kebutuhan sistem akuntansi zakat di sini..." class="w-full bg-slate-950 border border-slate-800 focus:border-cyber-neonCyan focus:ring-1 focus:ring-cyber-neonCyan text-white text-sm rounded-xl px-4 py-3 outline-none transition-all duration-300"></textarea>
-                        </div>
-
-                        <button type="submit" class="w-full py-4 rounded-xl font-bold font-orbitron tracking-wider text-cyber-dark bg-gradient-to-r from-cyber-neonCyan to-cyber-neonPink hover:shadow-neon-pink transition-all duration-300 text-sm">
-                            KIRIM VIA WHATSAPP <i class="fab fa-whatsapp ml-2 text-base"></i>
-                        </button>
-                    </form>
-                </div>
             </div>
         </div>
     </section>
 
     <!-- -->
-    <!-- Footer Section with Brand Identity and All Specified Social Links -->
-    <footer class="bg-slate-950 border-t border-slate-900 py-12 relative overflow-hidden">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-10">
-
-            <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
-                <!-- Column 1: Brand details -->
-                <div class="md:col-span-5 space-y-4">
-                    <span class="text-2xl font-black font-orbitron tracking-wider text-cyber-neonCyan neon-glow-text-cyan">
-                        AKUNTANSI<span class="text-cyber-neonPink neon-glow-text-pink">ZAKAT</span>
-                    </span>
-                    <p class="text-xs text-slate-400 leading-relaxed max-w-sm">
-                        AkuntansiZakat adalah pionir sistem pelaporan keuangan terintegrasi khusus untuk penataan zakat, infaq, dan shadaqah modern di Indonesia.
+    <!-- Footer Section -->
+    <footer class="bg-emerald-950 text-emerald-200 pt-16 pb-8 relative overflow-hidden border-t border-emerald-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 border-b border-emerald-900 pb-12">
+                
+                <!-- Col 1: Brand & Bio -->
+                <div class="space-y-4">
+                    <a href="https://szakat.id" class="flex items-center gap-2">
+                        <div class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center text-white">
+                            <i class="fa-solid fa-mosque text-lg"></i>
+                        </div>
+                        <span class="text-xl font-black text-white">Zakat<span class="text-emerald-400">MyID</span></span>
+                    </a>
+                    <p class="text-xs text-emerald-300 leading-relaxed">
+                        Sistem pengelolaan Zakat, Infaq, Sadaqah, dan Wakaf berstandar PSAK 109 dengan basis operasional resmi di Pasar Rebo, Jakarta Timur, DKI Jakarta.
                     </p>
-                    <div class="text-xs font-bold font-orbitron text-cyber-neonGreen uppercase tracking-widest">
-                        "Hitungan Tepat, Berkah Berlipat!"
+                    
+                    <!-- Social Media Links (Prompt's exact requirements) -->
+                    <div class="flex flex-wrap gap-2 pt-2">
+                        <a href="https://www.instagram.com/umrohsunnah.official/" target="_blank" class="w-8 h-8 rounded-lg bg-emerald-900 hover:bg-emerald-800 flex items-center justify-center text-white transition-colors" title="Instagram"><i class="fa-brands fa-instagram text-sm"></i></a>
+                        <a href="https://www.youtube.com/@seumrohmyid" target="_blank" class="w-8 h-8 rounded-lg bg-emerald-900 hover:bg-emerald-800 flex items-center justify-center text-white transition-colors" title="YouTube"><i class="fa-brands fa-youtube text-sm"></i></a>
+                        <a href="https://twitter.com/SunnahUmroh" target="_blank" class="w-8 h-8 rounded-lg bg-emerald-900 hover:bg-emerald-800 flex items-center justify-center text-white transition-colors" title="Twitter"><i class="fa-brands fa-twitter text-sm"></i></a>
+                        <a href="https://www.linkedin.com/in/umroh-sunnah" target="_blank" class="w-8 h-8 rounded-lg bg-emerald-900 hover:bg-emerald-800 flex items-center justify-center text-white transition-colors" title="LinkedIn"><i class="fa-brands fa-linkedin-in text-sm"></i></a>
+                        <a href="https://www.facebook.com/umroh.sunnah.73/" target="_blank" class="w-8 h-8 rounded-lg bg-emerald-900 hover:bg-emerald-800 flex items-center justify-center text-white transition-colors" title="Facebook"><i class="fa-brands fa-facebook-f text-sm"></i></a>
+                        <a href="https://www.tiktok.com/@seumroh" target="_blank" class="w-8 h-8 rounded-lg bg-emerald-900 hover:bg-emerald-800 flex items-center justify-center text-white transition-colors" title="TikTok"><i class="fa-brands fa-tiktok text-sm"></i></a>
+                        <a href="https://www.pinterest.com/travelumrohpluscom" target="_blank" class="w-8 h-8 rounded-lg bg-emerald-900 hover:bg-emerald-800 flex items-center justify-center text-white transition-colors" title="Pinterest"><i class="fa-brands fa-pinterest text-sm"></i></a>
                     </div>
                 </div>
 
-                <!-- Column 2: Useful Navigation Links -->
-                <div class="md:col-span-3 space-y-3">
-                    <h4 class="text-xs font-bold font-orbitron uppercase text-white tracking-widest">
-                        Navigasi Cepat
-                    </h4>
-                    <ul class="space-y-1.5 text-xs text-slate-400">
-                        <li><a href="#about" class="hover:text-cyber-neonCyan transition-all">Tentang Kami</a></li>
-                        <li><a href="#services" class="hover:text-cyber-neonCyan transition-all">Layanan Kami</a></li>
-                        <li><a href="#testimonials" class="hover:text-cyber-neonCyan transition-all">Testimoni Amil</a></li>
-                        <li><a href="#faq" class="hover:text-cyber-neonCyan transition-all">Tanya Jawab (FAQ)</a></li>
+                <!-- Col 2: Services / Modules -->
+                <div class="space-y-4">
+                    <h4 class="text-sm font-bold uppercase tracking-wider text-white">Modul Unggulan</h4>
+                    <ul class="space-y-2 text-xs text-emerald-300">
+                        <li><a href="#fitur" class="hover:text-white transition-colors">Penerimaan & Penghimpunan</a></li>
+                        <li><a href="#fitur" class="hover:text-white transition-colors">Penyaluran 8 Asnaf Mustahik</a></li>
+                        <li><a href="#fitur" class="hover:text-white transition-colors">Akuntansi PSAK 109</a></li>
+                        <li><a href="#fitur" class="hover:text-white transition-colors">Broadcast WhatsApp Otomatis</a></li>
+                        <li><a href="#fitur" class="hover:text-white transition-colors">Halaman Donasi Crowdfunding</a></li>
                     </ul>
                 </div>
 
-                <!-- Column 3: Social Media Connections (Requested Links) -->
-                <div class="md:col-span-4 space-y-4">
-                    <h4 class="text-xs font-bold font-orbitron uppercase text-white tracking-widest">
-                        Koneksi Sosial Media Kami
-                    </h4>
-                    <p class="text-[11px] text-slate-500">Kunjungi profil resmi tim kolaborasi kami di platform sosial media populer:</p>
-                    <div class="flex flex-wrap gap-3">
-                        <!-- Instagram -->
-                        <a href="https://www.instagram.com/umrohsunnah.official/" target="_blank" class="w-8 h-8 rounded-lg bg-slate-900 hover:bg-gradient-to-tr from-yellow-500 via-pink-500 to-purple-500 hover:text-white flex items-center justify-center text-slate-400 transition-all border border-slate-800" title="Instagram">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <!-- YouTube -->
-                        <a href="https://www.youtube.com/@seumrohmyid" target="_blank" class="w-8 h-8 rounded-lg bg-slate-900 hover:bg-red-600 hover:text-white flex items-center justify-center text-slate-400 transition-all border border-slate-800" title="YouTube">
-                            <i class="fab fa-youtube"></i>
-                        </a>
-                        <!-- Twitter/X -->
-                        <a href="https://twitter.com/SunnahUmroh" target="_blank" class="w-8 h-8 rounded-lg bg-slate-900 hover:bg-sky-400 hover:text-white flex items-center justify-center text-slate-400 transition-all border border-slate-800" title="X (Twitter)">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <!-- LinkedIn -->
-                        <a href="https://www.linkedin.com/in/umroh-sunnah" target="_blank" class="w-8 h-8 rounded-lg bg-slate-900 hover:bg-blue-700 hover:text-white flex items-center justify-center text-slate-400 transition-all border border-slate-800" title="LinkedIn">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <!-- Facebook -->
-                        <a href="https://www.facebook.com/umroh.sunnah.73/" target="_blank" class="w-8 h-8 rounded-lg bg-slate-900 hover:bg-blue-600 hover:text-white flex items-center justify-center text-slate-400 transition-all border border-slate-800" title="Facebook">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <!-- TikTok -->
-                        <a href="https://www.tiktok.com/@seumroh" target="_blank" class="w-8 h-8 rounded-lg bg-slate-900 hover:bg-black hover:text-white flex items-center justify-center text-slate-400 transition-all border border-slate-800" title="TikTok">
-                            <i class="fab fa-tiktok"></i>
-                        </a>
-                        <!-- Pinterest -->
-                        <a href="https://www.pinterest.com/travelumrohpluscom" target="_blank" class="w-8 h-8 rounded-lg bg-slate-900 hover:bg-red-700 hover:text-white flex items-center justify-center text-slate-400 transition-all border border-slate-800" title="Pinterest">
-                            <i class="fab fa-pinterest-p"></i>
-                        </a>
-                    </div>
+                <!-- Col 3: Local GEO SEO Signals -->
+                <div class="space-y-4">
+                    <h4 class="text-sm font-bold uppercase tracking-wider text-white">Wilayah Layanan</h4>
+                    <ul class="space-y-2 text-xs text-emerald-300">
+                        <li>Indonesia</li>
+                        <li>Jawa</li>
+                        <li>Kalimantan</li>
+                        <li>Sulawesi</li>
+                        <li>Sumatera</li>
+                    </ul>
                 </div>
+
+                <!-- Col 4: Contact directly -->
+                <div class="space-y-4">
+                    <h4 class="text-sm font-bold uppercase tracking-wider text-white">Hubungi Kami</h4>
+                    <p class="text-xs text-emerald-300">Hubungi Hotline WA kami 24/7 untuk konsultasi integrasi sistem.</p>
+                    <a href="https://wa.me/6283180296984?text=Halo%20ZakatMyID,%20saya%20ingin%20berkonsultasi" target="_blank" class="inline-flex items-center gap-2 px-4 py-2.5 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl text-xs font-bold transition-colors w-full justify-center">
+                        <i class="fa-brands fa-whatsapp text-lg"></i> Hubungi 083180296984
+                    </a>
+                </div>
+
             </div>
 
-            <div class="border-t border-slate-900 pt-8 flex flex-col sm:flex-row justify-between items-center text-[11px] text-slate-500 gap-4">
-                <p>© 2026 AkuntansiZakat (<a href="https://szakat.id" class="text-cyber-neonCyan hover:underline">szakat.id</a>)</p>
+            <!-- Footer Bottom and Copyright -->
+            <div class="flex flex-col md:flex-row items-center justify-between pt-8 text-xs text-emerald-400 gap-4">
+                <p>&copy; 2026 ZakatMyID (szakat.id). DKI Jakarta.</p>
                 <div class="flex gap-4">
-                    <span>Pasar Rebo, Jakarta Timur, DKI Jakarta</span>
-                    <a href="tel:083180296984" class="hover:text-cyber-neonCyan">WA: 0831-8029-6984</a>
+                    <a href="https://szakat.id" class="hover:underline">Kebijakan Privasi</a>
+                    <a href="https://szakat.id" class="hover:underline">Syarat & Ketentuan</a>
+                    <a href="https://szakat.id" class="hover:underline">Peta Situs (SEO)</a>
                 </div>
             </div>
         </div>
     </footer>
 
     <!-- -->
-    <!-- Floating Pulsing Neon WhatsApp Button -->
-    <a href="https://wa.me/6283180296984?text=Halo%20AkuntansiZakat,%20saya%20tertarik%20dengan%20sistem%20pencatatan%20keuangan%20syariah." target="_blank" class="fixed bottom-6 right-6 z-50 bg-[#25D366] hover:bg-emerald-500 text-white w-14 h-14 rounded-full shadow-[0_0_20px_rgba(37,211,102,0.6)] flex items-center justify-center text-2xl transition-all duration-300 hover:scale-110 active:scale-95 group" title="Hubungi Kami Sekarang">
-        <i class="fab fa-whatsapp"></i>
-        <!-- Glowing Ring Effect -->
-        <span class="absolute inset-0 rounded-full border-2 border-[#25D366] animate-ping opacity-75"></span>
+    <!-- Floating WhatsApp Action Button (Always ready for conversions) -->
+    <a href="https://wa.me/6283180296984?text=Halo%20ZakatMyID,%20saya%20ingin%20konsultasi%20mengenai%20Sistem%20Aplikasi%20ZISWAF" target="_blank" class="fixed bottom-6 right-6 z-50 bg-emerald-600 hover:bg-emerald-500 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl transition-all duration-300 hover:scale-110 group" aria-label="WhatsApp Us">
+        <span class="absolute right-16 bg-slate-900/95 text-white text-xs font-bold px-3 py-1.5 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap shadow-md pointer-events-none">Hubungi Kami via WhatsApp</span>
+        <i class="fa-brands fa-whatsapp text-3xl"></i>
     </a>
+
+    <!-- -->
+    <!-- Javascript Logic for Mobile Menu, Calculator, and FAQ Toggles -->
+    <script>
+        // Toggle Mobile Menu Drawer
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close menu drawer when link is clicked
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Toggle Accordion FAQs (AEO & User friendly)
+        function toggleFaq(index) {
+            const answer = document.getElementById(`faqAns${index}`);
+            const icon = document.getElementById(`faqIcon${index}`);
+            
+            if (answer.classList.contains('hidden')) {
+                answer.classList.remove('hidden');
+                icon.classList.add('rotate-180');
+            } else {
+                answer.classList.add('hidden');
+                icon.classList.remove('rotate-180');
+            }
+        }
+
+        // Live Calculator logic (SEO & Time-on-site optimization booster)
+        function calculateZakat() {
+            const type = document.getElementById('zakatType').value;
+            const amountInput = document.getElementById('zakatAmount').value;
+            const goldPriceInput = document.getElementById('goldPrice').value;
+            
+            const amount = parseFloat(amountInput) || 0;
+            const goldPrice = parseFloat(goldPriceInput) || 1400000;
+            
+            let nisab = 0;
+            let finalZakat = 0;
+            let statusText = "TIDAK WAJIB ZAKAT";
+            
+            if (type === 'penghasilan') {
+                // Nisab bulanan setara 522 kg beras, atau disetarakan dengan nisab emas 85gr / 12 bulan
+                nisab = (goldPrice * 85) / 12;
+                
+                if (amount >= nisab) {
+                    finalZakat = amount * 0.025; // 2.5%
+                    statusText = "WAJIB ZAKAT (2.5%)";
+                }
+            } else {
+                // Zakat Tabungan/Maal setahun setara 85 gr Emas
+                nisab = goldPrice * 85;
+                
+                if (amount >= nisab) {
+                    finalZakat = amount * 0.025; // 2.5%
+                    statusText = "WAJIB ZAKAT (2.5%)";
+                }
+            }
+            
+            // Format to Rupiah Currencies
+            const formattedZakat = new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR', maximumFractionDigits: 0 }).format(finalZakat);
+            const formattedNisab = new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR', maximumFractionDigits: 0 }).format(nisab);
+            
+            document.getElementById('zakatOutput').innerText = formattedZakat;
+            document.getElementById('nisabOutput').innerText = formattedNisab;
+            
+            const statusEl = document.getElementById('statusOutput');
+            statusEl.innerText = statusText;
+            
+            if (finalZakat > 0) {
+                statusEl.className = "font-bold text-emerald-600 bg-emerald-100/50 px-2 py-0.5 rounded-full";
+            } else {
+                statusEl.className = "font-bold text-slate-500 bg-slate-100 px-2 py-0.5 rounded-full";
+            }
+        }
+
+        // Handle Contact Form Submit (Non-Alert Policy)
+        function handleContactSubmit(event) {
+            event.preventDefault();
+            const successMsg = document.getElementById('formSuccessMsg');
+            successMsg.classList.remove('hidden');
+            
+            // Reset Form Fields after 1 second
+            setTimeout(() => {
+                document.getElementById('contactForm').reset();
+            }, 1000);
+
+            // Hide success message after 5 seconds
+            setTimeout(() => {
+                successMsg.classList.add('hidden');
+            }, 6000);
+        }
+
+        // Initialize calculations once on window load
+        window.onload = function () {
+            calculateZakat();
+        }
+    </script>
 </body>
 </html>
